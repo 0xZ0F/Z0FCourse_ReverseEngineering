@@ -1,5 +1,5 @@
 # Setup
-This course will focus on 64 bit Windows, but we will talk about 32 bit and Linux as well.
+This course will focus on 64 bit Windows, but we will talk about 32 bit and Linux as well. Note: x32 and x86 are the same.
 
 ## Software:
 Most of the software can be replaced with anything you like. The software I will be using is listed (all of it's free):  
