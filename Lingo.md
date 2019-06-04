@@ -9,3 +9,7 @@ The prefix of **0x** or the suffix of **h** is hexadecimal (Ex. 0xFF or FFh).
 
 **HDD** is hard disk drive (or hard drive) and **SSD** is solid state drive.
 
+**x64** is **64** bit.
+
+**x32** and **x86** are 32 bit.
+
