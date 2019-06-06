@@ -1,4 +1,0 @@
-# Mindset
-Having the right mindset can be really helpful. Something to understand is that computers are extremely stupid. They operate on "blunt logic" and they don't make any assumptions (note that this only holds true as long as Skynet doesn't become a reality). You can think of computers as trains, they don't stop and only go in a very specific and direct path as designated by the tracks. If there's a child on the tracks it's up to the track people to divert the train. As for a developer, it's up to them to make sure the computer is doing what it's supposed to do and doesn't "derail". This is where binary exploitation comes in. We *want* the train to hit the ch... okay I'll stop myself there ;)
-
-P.S. A binary exploitation course is coming after I finish this course!
