@@ -1,0 +1,39 @@
+# Operations
+There are a few binary operations that you should know about. They are used for all sorts of things as you will see throughout the course.
+
+These operations include **NOT**, **AND**, **OR**, and **XOR**.
+
+### NOT
+NOT simply flips a bit. In other words, it changes the bit to what it's not.  
+* NOT 1 = 0
+* NOT 0 = 1
+<p align="center">
+  <img src="[ignore]/BONot.png">
+</p>
+
+### AND
+AND checks if both bits are 1 and if they are then the result is 1, if not the result is 0.
+* 1 AND 1 = 1
+* 1 AND 0 = 0
+* 0 AND 0 = 0
+<p align="center">
+  <img src="[ignore]/BOAnd.png">
+</p>
+
+### OR
+OR checks if either of the bits is one, if so then the result is one.
+* 1 OR 1 = 1
+* 1 OR 0 = 1
+* 0 OR 0 = 0
+<p align="center">
+  <img src="[ignore]/BOOr.png">
+</p>
+
+### XOR
+XOR checks if either of the bits is one, **but not both**, if so then the result is one.
+* 1 XOR 1 = 0
+* 1 OR 0 = 1
+* 0 OR 0 = 0
+<p align="center">
+  <img src="[ignore]/BOXor.png">
+</p>
