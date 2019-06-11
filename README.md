@@ -13,12 +13,15 @@ Support me on [Patreon](https://www.patreon.com/z0f)!**
     * Good understanding of C/C++.
     * Experience with object oriented programming in languages such as Java and C#.
     * Understanding pointers, arrays, structs/classes, inheritance, etc.
-<br /><br />**Learn C**:
-<br /> https://www.learn-c.org/
-<br /><br />**Learn C++:**
-<br /> https://www.learncpp.com/  
-<br /> **If you have some experience or finished learncpp.com:**
-<br /> https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+    <br /><br />**Learn C**:
+    <br /> https://www.learn-c.org/
+    <br /><br />**Learn C++:**
+    <br /> https://www.learncpp.com/  
+    <br /> **If you have some experience or finished learncpp.com:**
+    <br /> https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+* ### Prefered:
+    * x86 or x64 Assembly Programming
+    
 <a name="importantnotes"></a>
 ## Important Notes:
 THIS COURSE IS A WORK IN PROGRESS! I'm no where near done, but feel free to watch the course develop over time! If you have any feedback or suggestions let me know on Twitter! If you would like to know a little of what I have planned, see the content inside of the [DOC](DOC) folder.
