@@ -58,4 +58,4 @@ What is the "E" and the "R" for? The "E" stands for extended. The "R" stands for
 > https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/x64-architecture
 
 ### Extra Registers
-There are additional registers that don't have a common use besides data storage. These registers are r0 to r15.
+There are additional registers that don't have a common use besides data storage. These registers are r0 to r15. There are also registers used for handling floating point values. These registers are XMM0 to XMM15.
