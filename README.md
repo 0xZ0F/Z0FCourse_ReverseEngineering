@@ -20,7 +20,7 @@ Support me on [Patreon](https://www.patreon.com/z0f)!**
     <br /> **If you have some experience or finished learncpp.com:**
     <br /> https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
 * ### Prefered:
-    * x86 or x64 Assembly Programming
+    * **Highly recommended**: x86 or x64 Assembly Programming
     
 <a name="importantnotes"></a>
 ## Important Notes:
