@@ -1,4 +1,4 @@
-# Memory Layout - WIP
+# Memory Layout
 The systems memory is divided into several sections. I prefer to imagine the stack with low address at the top and high addresses at the bottom. The reason for this is because it's more like a normal numeric list and it's how you'll most often see it being represented. Also, I'm pretty sure that's how your computer sees it. Be warned though, you will see people represent the memory layout as starting from higher addresses.
 
 ## Assembly Segments
