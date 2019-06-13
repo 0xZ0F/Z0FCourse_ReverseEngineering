@@ -8,7 +8,7 @@ Before we get into memory sections, we need to talk about Assembly segments. The
 * **.text** - Contains the code of the program. It should be called .code but I don't make the rules. The start of the program code is declared with "global _start".
 
 ## Overview of Memory Sections
-* **Stack** - Area in memory that can be used quickly for static data allocation. Data is read and written as "last-in-first-out" (LIFO). The LIFO structure of the stack is often represented with a stack of plates. You can't simply take out the third plate from the top, you have to take off one plate at a time to get to it. The way I see it is that only the piece of data on the very top of the stack is accessible, so to access other data you need to move what's on the top out of the way. The static data allocation refers to data that has a known length. An integer will only be 4 bytes so we can through that on the stack. Unless a maximum length is specified, user input should be stored on the heap because of it's variable size.
+* **Stack** - Area in memory that can be used quickly for static data allocation. Data is read and written as "last-in-first-out" (LIFO). The LIFO structure of the stack is often represented with a stack of plates. You can't simply take out the third plate from the top, you have to take off one plate at a time to get to it. The way I see it is that only the piece of data on the very top of the stack is accessible, so to access other data you need to move what's on the top out of the way. The static data allocation refers to data that has a known length. An integer will only be 4 bytes so we can through that on the stack. Unless a maximum length is specified, user input should be stored on the heap because of it's variable size. When you put data on top of the stack you **push** it onto the stack. When you remove a piece of data off the top of the stack you **pop** it off the stack. There are two registers that are used to keep track of the stack. The stack pointer (RSP) is used to keep track of the top of the stack and the base pointer (RBP) is used to keep track of the base/bottom of the stack.
 * **Heap** - Similar to the stack but used for dynamic allocation and it's slower. The heap is typically used for data that is more dynamic (changing or unpredictable). This includes structures, user input, etc. If the size of the data isn't known at compile-time, it's usually stored on the heap.
 * **Program Image** - This is the program loaded into memory. On Windows this is typically a **Portable Executable (PE)**.
 * **DLL** - **Dynamic Link Library (DLL)**. These can be used by programs.
@@ -32,17 +32,19 @@ int main(){
     Square(5);
 }
 ```
-In this example the `main` function is called first. When `main` is called a stack frame is created for it. This stack frame includes local variables, the saved (old) base pointer, the return address, and the parameters passed to the function. The base pointer is saved so it can later be restored when the function returns. This ensures that the stacks don't get all wonky. The return address is the address of the instruction after the instruction that called the function. That may sound confusing, hopefully this can clear it up:
+In this example the `main` function is called first. When `main` is called, a stack frame is created for it. This stack frame includes local variables, the saved (previous) base pointer, the return address, and the parameters passed to the function. Remember, the base pointer points to the base/bottom of the stack. The base pointer is saved so when the function returns it can be restored to what is was before the function call. This ensures that the stack stays organized and doesn't get all wonky. The return address is the address of the instruction after the instruction that called the function. That may sound confusing, hopefully this can clear it up:
 ```asm
-mov RAX, 15
-call func   ;Instruction that calls func
-mov RBX, 23 ;Instruction after the call which is the saved return address for the previous call.
+mov RAX, 15 ;RAX = 15
+call func   ;Instruction that calls func. Same as func();
+mov RBX, 23 ;RBX = 23. This is the instruction after the call which is the saved return address for the call on the previous line.
 ```
 It's simply telling the computer where to go (what instruction to execute) when the function returns. You don't want it to execute the instruction that called the function because that will cause an infinite loop. This is why the next instruction is used as the return address instead.  
-Here is the layout:
+Here is the layout of a stack frame:
 <p align="center">
   <img src="[ignore]/StackFrameLayout.png">
 </p>
+
+> If this section was confusing, read through [0x203-Instructions.md](0x203-Instructions.md) then re-read this section. After you re-read this section you might want to read 0x203-Instructions.md again. I apologize for this but there really isn't a good order to teach this stuff in since it all goes together.
 
 # Windows x64 Calling Convention
 When a function is called you could, theoretically, pass parameters via registers, the stack, or even on disk. You just need to be sure that the function you are calling knows how you are calling it. To solve this problem we have **calling conventions** that define lings like how parameters are passed to a function, who allocates space for local variables, and who cleans up the stack.
@@ -66,10 +68,14 @@ That's the x64 Windows fastcall calling convention for you. Learning your first 
 If you want to learn more about this calling convention you can here:  
 https://docs.microsoft.com/en-us/cpp/build/x64-calling-convention?view=vs-2019  
 https://docs.microsoft.com/en-us/cpp/build/x64-software-conventions?view=vs-2019  
+
+> If this section was confusing, read through [0x203-Instructions.md](0x203-Instructions.md) then re-read this section. After you re-read this section you might want to read 0x203-Instructions.md again. I apologize for this but there really isn't a good order to teach this stuff in since it all goes together.
+
 <br />
 <br />
 <br />
 <br />
+
 ##### Sources
 https://docs.microsoft.com/en-us/cpp/build/x64-software-conventions?view=vs-2019
 https://docs.microsoft.com/en-us/cpp/build/x64-calling-convention?view=vs-2019
