@@ -14,7 +14,7 @@ Example:
 ```asm
 mov RAX, 5
 ```
-**MOV** is the instruction, RAX is the destination operand, and 5 is the source operand. Capitalization of instructions or operands does not matter. You will see me use a mixture of all letters capitalized and all letters lowercase.
+MOV is the instruction, RAX is the destination operand, and 5 is the source operand. Capitalization of instructions or operands does not matter. You will see me use a mixture of all letters capitalized and all letters lowercase.
 
 # Common Instructions
 ## Data:
@@ -57,7 +57,7 @@ Same as RAX = RAX - RBX or RAX -= RBX.
 ```asm
 mov RAX, 5
 mov RBX, 3
-add RAX, RBX
+sub RAX, RBX
 ```
 **MUL** (unsigned) or **IMUL** (signed) multiplies the destination by the source. The result is stored in the destination. IMUL is used for signed and MUL is used for unsigned. In the following example RAX will end with a value of 15.
 ```asm
@@ -109,7 +109,7 @@ ret
 
 Hopefully you can now work out the assembly version on it's own. It moves the variable `x` into RAX, then it compares `x` to 4. If they *are not equal* then it will return, if they *are equal* then it calls "func1".
 ## Flipping Out
-You may also notice that the comparison is flipped.  
+You may also notice that the comparison in the example above is flipped.  
 Instead of
 ```c
 if(x == 4){

@@ -2,19 +2,20 @@
 There are many flags used for various reasons. One flag that we have already talked about is the Zero Flag (ZF).
 
 ## Status Flags
-There are the flags you should know. Note that when I say a "flag is set" I mean the flag is set to 1 which is true/on. 0 is false/off.
+Here are the flags you should know. Note that when I say a "flag is set" I mean the flag is set to 1 which is true/on. 0 is false/off.
 * **Zero Flag (ZF)** - Set if the result of an operation is zero. Not set if the result of an operation is *not* zero.
 * **Carry Flag (CF)** - Set if the last *unsigned* arithmetic operation carried (addition) or borrowed (subtraction) a bit beyond the register. It is also set if the operation is negative because this flag is for unsigned which is positive only. A negative could be a really big positive number.
-* **Overflow Flag (OF)** - Set if *signed* arithmetic operation is too big for the register to contain.
+* **Overflow Flag (OF)** - Set if a *signed* arithmetic operation is too big for the register to contain.
 * **Sign Flag (SF)** - Set if the result of an operation is negative.
 * **Adjust/Auxiliary Flag (AF)** - Same as the carry flag but for Binary Code Decimal (BCD) operations.
 * **Parity Flag (PF)** - Set to 1 if the number of bits set in the last 8 bits is even. (10110100, PF=1; 10110101, PF=0)
 * **Trap Flag (TF)** - Allows for single stepping of programs.
+
 For a full list of flags see: https://www.tech-recipes.com/rx/1239/assembly-flags/
 
 ## Examples
 #### Basic Comparison
-Flags are pretty self-explanatory but I thought I would give a basic example. 
+Here are some examples that demonstrate flags.
 
 The most important flag in the following example is the zero flag (ZF). The code is trying to determine if RAX is equal to 5. On line 2 there is a CMP instruction which will set flags depending on the result. In this case, the ZF is going to be set to 1 because RAX is equal to 4. The JNE instruction is going to look at the flags to see if the previous operation resulted in the ZF being set.
 ```assembly
@@ -42,4 +43,4 @@ add AL, 60
 ```
 
 ## Final Note
-Hopefully that gives you a good idea of what flags are and how they work. One thing I want to note is that a CMP is not needed for flags to be set. You may see a JCC (conditional jump) instruction when there is no CMP is around and that is why.
+Hopefully that gives you a good idea of what flags are and how they work. Remember that CMP will set flags depending on the result of the comparison. Conditional jumps will simply look at the flags. This tells us that a conditional jump does not need to be immediately proceeded with a CMP to work. Also, flags are set by things other than CMP instructions.

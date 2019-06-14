@@ -4,7 +4,7 @@ There are a few binary operations that you should know about. They are used for 
 These operations include **NOT**, **AND**, **OR**, and **XOR**.
 
 ### NOT
-NOT simply flips a bit. In other words, it changes the bit to what it's not.  
+**NOT** simply flips a bit. In other words, it changes the bit to what it's not.  
 * NOT 1 = 0
 * NOT 0 = 1
 <p align="center">
@@ -12,7 +12,7 @@ NOT simply flips a bit. In other words, it changes the bit to what it's not.
 </p>
 
 ### AND
-AND checks if both bits are 1 and if they are then the result is 1, if not the result is 0.
+**AND** checks if both bits are 1 and if they are the result is 1, if not the result is 0.
 * 1 AND 1 = 1
 * 1 AND 0 = 0
 * 0 AND 0 = 0
@@ -21,7 +21,7 @@ AND checks if both bits are 1 and if they are then the result is 1, if not the r
 </p>
 
 ### OR
-OR checks if either of the bits is one, if so then the result is one.
+**OR** checks if either of the bits is one, if so then the result is one.
 * 1 OR 1 = 1
 * 1 OR 0 = 1
 * 0 OR 0 = 0
@@ -30,7 +30,7 @@ OR checks if either of the bits is one, if so then the result is one.
 </p>
 
 ### XOR
-XOR checks if either of the bits is one, **but not both**, if so then the result is one.
+**XOR** checks if either of the bits is one, **but not both**, if so then the result is one.
 * 1 XOR 1 = 0
 * 1 OR 0 = 1
 * 0 OR 0 = 0
