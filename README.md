@@ -31,7 +31,6 @@ THIS COURSE IS A WORK IN PROGRESS! I'm no where near done, but feel free to watc
 
 I use some technical lingo and abbreviations. If you forget what they mean, or don't know what they mean, go to [Lingo.md](Lingo.md).
 
-The course folders are organized in a specific way. Any folders or files with a name surrounded with square brackets, such as "[ignore]", are not important. It's usually something like the images used in the course. 
 <a name="contact"></a>
 ## Contact/Stay Updated:
 Follow me on Twitter [@0xZ0F](https://twitter.com/0xZ0F)!
