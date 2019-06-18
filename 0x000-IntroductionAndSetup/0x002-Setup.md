@@ -8,7 +8,7 @@ You will need a 64 bit Windows OS. You can use a virtual machine (VM) if you wan
 Most of the software can be replaced with anything you like. The software I will be using is listed (all of it's free):  
 #### Required:
 * [**Ghidra**](https://ghidra-sre.org/) (Needs Java JRE and JDK).
-* [**x64dbg**](https://x64dbg.com/) (Comes with x32dbg as well).
+* [**x64dbg**](https://x64dbg.com/) (Comes with x32dbg as well). I will also use the [xAnalyzer](https://github.com/ThunderCls/xAnalyzer) plugin, you don't need this but I would recommend it.
 * [**dnSpy**](https://github.com/0xd4d/dnSpy) (preferred) or [ILSpy](https://github.com/icsharpcode/ILSpy) (Used for .NET reversing towards the end).
 * [**Visual Studio**](https://visualstudio.microsoft.com/) with "Desktop development with C++" installed. I would also recommend installing ".NET desktop development."
 

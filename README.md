@@ -5,6 +5,9 @@
 **Reverse engineering course by Z0F.  
 Support me on [Patreon](https://www.patreon.com/z0f)!**
 
+## What We'll Do/Learn:
+This course is going to teach anyone how to reverse engineer x64 Windows. We will start by covering some basics of binaries, then reverse some small samples, then move to a full program, the finally we will reverse a DLL and implement it into our own program. There will also be extra content at the end which will briefly cover other topics such as x86 and Linux.
+
 #### [Table Of Contents](TableOfContents.md)
 <a name="resources"></a>
 ## Resources Needed:
