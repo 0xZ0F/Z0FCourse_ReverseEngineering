@@ -24,6 +24,11 @@ This is equalivilant to RAX = 5.
 mov RAX, 5
 ```
 
+**LEA** is short for Load Effective Address. This is essential the same as MOV except for addresses. It's also commonly used to compute addresses. In the following example RAX will contain the memory address/location of num1.
+```asm
+lea RAX, num1
+```
+
 **PUSH** is used to push data onto the stack. Pushing refers to putting something on the top of the stack. In the following example RAX is pushed onto the stack. Pushing will act like a copy so RAX will still contain the value it had before it was pushed.
 ```asm
 push RAX
@@ -143,6 +148,49 @@ call func1
 ret
 ```
 This code wants to return once `func1` has returned, and/or if RAX is not equal to 4. In other words, it's returning either way. To reduce the amount of instructions the compiler will choose the second option. You may have seen some programmers write if-statements that are more similar to `if(x != 4)` instead of `if(x == 4)`, and this is probably why. Although it really doesn't matter how the programmer writes it because the compiler will most likely choose the best option anyways.
+
+## Pointers
+Assembly has it's ways of working with pointers and memory addresses like C/C++ does. In C/C++ you can use dereferencing to get the value inside of a memory address. For example:
+```c
+int main(){
+    int num = 10;
+    int* ptr = &num;        //y is now the address of x
+    /* 
+    ptr is dereferenced so it prints what's inside of the address 
+    that it's holding. The value inside of the address that it's 
+    holding is 10.
+    */
+    printf("%d", *ptr);   
+}
+```
+Two of the most important things to know when working with pointers and addresses in Assembly are **LEA** and **square brackets**.  
+
+* **Square Brackets** - Square brackets signify "address pointed to". For example, `[var]` is the address pointed to by var. In other words, when using `[var]` we want to access the memory address that `var` is holding.
+* **LEA** - Ignore literally everything about square brackets when working with LEA. LEA is short for Load Effective Address and it's used for calculating and loading addresses.
+
+**It's important to note that when working with the LEA instruction, square brackets do *not* dereference.**  
+**It's important to note that when working with the LEA instruction, square brackets do *not* dereference.**  
+**It's important to note that when working with the LEA instruction, square brackets do *not* dereference.**  
+Have I said it enough? Don't let this confuse you. People who don't know that LEA breaks the rules when working with square brackets get extremely confused very quickly. LEA is used to load and calculate addresses, NOT data. It doesn't matter if there are square brackets or not, it's dealing with addresses ONLY. LEA tends to mess with many peoples heads. Don't let her do that to you.  
+
+Here is a simple example of dereferencing and a pointer in Assembly:
+```assembly
+lea RAX, [var]
+mov [RAX], 12 
+```
+In the example above the <u>*address*</u> of `var` is loaded into RAX. This is LEA we are working with, there is *<u>no</u>* dereferencing. RAX is essentially a pointer now. Then 12 is moved into the address that RAX holds (often said as the address pointed to by RAX). The address pointed to by RAX is the `var` variable. If that Assembly was executed, `var` would be 12.  
+
+Earlier I said that LEA can be used to calculate addresses, and it often is.
+```assembly
+lea RAX, [RCX+8]    ;This will set RAX to the address of RCX+8.
+```
+
+```assembly
+mov RAX, [RCX+8]    ;This will set RAX to the value inside of RCX+8.
+```
+One more time:  
+**It's important to note that when working with LEA square brackets do *not* dereference.**  
+You'll see LEA and MOV used all the time so be sure you understand this. I know it can be a tad confusing but just remember that LEA is for addresses.  
 
 ## Final Note
 There are many more Assembly instructions that I haven't covered. As we continue I will introduce more instructions as they come. Don't be afraid to look up instructions, because like I said, there are quite a few (hundreds or thousands).
