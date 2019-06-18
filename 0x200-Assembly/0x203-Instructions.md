@@ -1,4 +1,4 @@
-# Instructions - TODO
+# Instructions
 Let's talk about some Assembly instructions. Before we get started there are three different terms you should know: **immediate**, **register**, and **memory**. 
 * An **immediate value** is something like the number 12 (the kind of number we humans use). An immediate value is not a memeory address or register, instead it's some sort of constant. 
 * A **register** is referring to something like RAX, RBX, R12, AL, etc. 
