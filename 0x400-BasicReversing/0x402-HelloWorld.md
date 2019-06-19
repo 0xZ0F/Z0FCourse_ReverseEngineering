@@ -66,4 +66,67 @@ I want to touch on the fact that we passed the *address* of the string to `print
 
 Hopefully that wasn't too difficult to follow and understand. Finding the `main()` function can be annoying and it certainly doesn't make a good impression for people who are just starting to learn reversing, but it's what we have to do. Feel free to explore a little bit!
 
-## Reversing the `std::cout` Version - TODO
+## Reversing the `std::cout` Version
+This is where things get interesting. `std::cout` is part of C++, where as `printf()` is part of C. This means that the compiler has full control over `std::cout` but not as much control over `printf()`. Think about how you would make a program that just prints text to the screen *once* as efficient as possible. Think about this, what could you do instead of calling a function just once? The answer is to not call any function, just put the text to be printed inside the print function or put the print function with the text to be printed. Sounds real fun for us reverse engineers doesn't it?!
+
+Here is an example:
+```c
+int Add(int num1, int num2){
+    return num1+num2;
+}
+int main(){
+    int total = Add(2, 3);
+}
+```
+How could we make this more efficient? There are two ways.  
+The example below is more efficient because there are no parameters to be passed.
+```c
+int Add(){
+    return 2+3;
+}
+int main(){
+    int total = Add();
+}
+```
+The example below is more efficient because there is no function call at all. Instead the code for the `Add()` function has essentially been copied and pasted into `main()`. It may not seem like it because I have such a small example but that's exactly what has happened in the example. This is called (depending on who you ask) **function inlining, inline expansion, or just in inlining.** I'll just call it inlining.
+```c
+int main(){
+    int total = 2 + 3;
+}
+```
+
+### Reversing Time
+Open HelloWorld_Cout.exe in x64dbg and let's get started. First we want to find the main function. Let's use the same technique we used previously which was searching for the string.
+<p align="center">
+  <img src="[ignore]/CoutCout.png">
+</p>
+
+What is our string doing there? By looking at the code we can guess that the next function to be called is going to result in the string being printed. Also, note that the first parameter passed to the function is something to do with "KernelBaseDLLInitialize". This is an indicator that it's a function of a library not a function implemented in HelloWorld_Cout.exe. If we are right, this could help us figure out what's going on.
+
+Let's set a breakpiont on the LEA instruction that is dealing with our string. You can set a breakpoint by pressing F2 or by right clicking and going to Breakpoint > Toggle. Then run the program until you hit that breakpoint. We can then step over the call by clicking the corresponding blue arrow at the top or by pressing F8. When we jump over this call we can see that the string appears in the console. It's extreamly likely at this point that we are correct that this is `std::cout` or something to do with it. But how do we know that the function that was just called doesn't do something else? You can investigate the function that printed the text into the terminal. The function is accessed via and offset from RAX. This offset is 0x48. Because this function isn't be called with an address, we will need to know what RAX is and calculate the offset if we want to find the function. So we will have to run the function again until we reach that point. When execution has gotten to that line we can now see what RAX is. Now we go to RAX + 0x48 either by doing our own math or by pressing Enter and letting x64dbg figure it out then follow the call for us. From here you can reverse the function.
+
+Another method to figure out what's going on is to write your own program that uses `std::cout` and see if things match. You could use the graph view to see the layout of the function in the program your reversing and your own program to see if they match. You could of course look at the individual Assembly instructions but I think this is a little more tedious. This is a common technique that more experienced reverses use. Eventually you will see patterns like this and be able to figure out pretty quickly what's going on.
+
+### Getting To Main
+So was our string put into `std::cout` or was `std::cout` put into `main()`? Figuring this out is pretty easy. First, go back to the instruction that referenced out string. We want to find out what called this function. Go to the first instruction in this function, this is also the functions address/location. Right click it and select Find references to > Selected Address(es). We can see that this function is called once, go to where it is called form. This is where it was called from:
+<p align="center">
+  <img src="[ignore]/CoutMain.png">
+</p>
+This appears to be `main()` because of how small it is, but there are no guarantees. This is the function that causes our string to be printed so it's very likely that this is `main()` or something related to it.
+
+So we now know that in this case the compiler decided to put our string into `std::cout`.
+
+What's with the second call? I encourage you to find out what this call is on your own. Here is a quick hint: the two functions called are very similar.  
+
+Answer (click to reveal): 
+>! The second call is `std::endl`. You will see that the function prints "\n" which is the newline character.
+
+## `std::cout` Used Twice
+Like I said, inlining is almost never used when a function is called more than once. So what does it look like if `std::cout` is used twice? Well, it look much more like the `printf()` version.
+<p align="center">
+  <img src="[ignore]/DoubleCout.png">
+</p>
+As you can see there is one call for `std::cout` and one call for `std::endl` for each one of the two strings being printed, totaling in four function calls.
+
+## Final Notes  
+The `printf()` version should be fairly easy to understand. The `std::cout` is much more confusing. Hopefully you get the general idea of what's going on though. From this point I would highly recommend that you write your own programs and see what's going on. Visual Studio allows you to view the Assembled version of your program along with the source code which can be great for learning. Don't worry if this bit was confusing, the `std::cout` thing is really weird and counter-intuitive.
