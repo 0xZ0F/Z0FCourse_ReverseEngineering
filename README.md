@@ -36,8 +36,9 @@ I use some technical lingo and abbreviations. If you forget what they mean, or d
 
 <a name="contact"></a>
 ## Contact/Stay Updated:
-Follow me on Twitter [@0xZ0F](https://twitter.com/0xZ0F)!
-<br /> :heart: Become a [Patreon](https://www.patreon.com/z0f) supporter! :heart:
+Follow me on Twitter [@0xZ0F](https://twitter.com/0xZ0F)!  
+Discord Server: https://discord.gg/m3DRPyV  
+:heart: Become a [Patreon](https://www.patreon.com/z0f) supporter! :heart:
 
 Please give me any and all **honest** feedback you have. Don't worry about hurting my feelings, I want to make this course as good as I can. I can't do that alone, that's why your feedback is so important.
 

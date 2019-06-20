@@ -118,8 +118,11 @@ So we now know that in this case the compiler decided to put our string into `st
 
 What's with the second call? I encourage you to find out what this call is on your own. Here is a quick hint: the two functions called are very similar.  
 
-Answer (click to reveal): 
->! The second call is `std::endl`. You will see that the function prints "\n" which is the newline character.
+<details>
+  <summary>Answer (click to reveal):</summary>
+  
+  The second call is `std::endl`. You will see that the function prints "\n" which is the newline character.
+</details>
 
 ## `std::cout` Used Twice
 Like I said, inlining is almost never used when a function is called more than once. So what does it look like if `std::cout` is used twice? Well, it look much more like the `printf()` version.
@@ -127,6 +130,11 @@ Like I said, inlining is almost never used when a function is called more than o
   <img src="[ignore]/DoubleCout.png">
 </p>
 As you can see there is one call for `std::cout` and one call for `std::endl` for each one of the two strings being printed, totaling in four function calls.
+
+## More About Finding `main()`
+There are a few techniques that you can use to find `main()`. In the future I will talk about these methods. One thing I did want to mention is that `main()` should be called in the entry function. If you're looking for main, it's best to start from the bottom of the entry function and work your way up. That's it for now, I will add more about this topic in the future.  
+
+Here is my quick blog post on finding `main()`: https://www.z0fsec.tk/2019/06/research-finding-main-function.html
 
 ## Final Notes  
 The `printf()` version should be fairly easy to understand. The `std::cout` is much more confusing. Hopefully you get the general idea of what's going on though. From this point I would highly recommend that you write your own programs and see what's going on. Visual Studio allows you to view the Assembled version of your program along with the source code which can be great for learning. Don't worry if this bit was confusing, the `std::cout` thing is really weird and counter-intuitive.
