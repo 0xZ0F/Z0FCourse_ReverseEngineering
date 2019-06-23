@@ -20,3 +20,6 @@ Before we get into other data types, let's talk about signed vs unsigned. Signed
 * **Bool** - 1 byte. This may surprise you since a bool only needs 1 bit because it's either 1 or 0. The reason why it's a byte is because computers don't tend to work with individual bits. Instead they work with bytes. This is done to keep everything clean and eliminate as much confusion as possible.
 
 For more data types go here: https://www.tutorialspoint.com/cprogramming/c_data_types.htm
+
+## Significance
+The least significant byte is the lowest value. The least significant digit in 124 is 4. The most significant is 1 (100).
