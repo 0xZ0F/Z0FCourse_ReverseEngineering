@@ -1,11 +1,11 @@
 # FAQ:
-**See "0x000 - Refreshing And HowTo" to see how the course is setup.**
+**See [0x000-IntroductionAndSetup](0x000-IntroductionAndSetup) to see how the course is set up.**
 
 **Q: How can I support you?**  
 **A:** Aww, it's so nice of you to ask! You can support me on [Patreon](https://www.patreon.com/z0f) and I will love you forever :heart:.  
 You can also support me by giving me feedback or advice. The best way to do this is on Twitter [@0xZ0F](https://twitter.com/0xZ0F).
 
-**Q: When will the course be udpated?**   
+**Q: When will the course be updated?**   
 **A:** Whenever I can get around to it. This is a free course I'm making in my free time, so don't expect me to work 24/7.
 
 **Q: Why are the courses written in Markdown (.md)?**   
@@ -30,7 +30,7 @@ You can also support me by giving me feedback or advice. The best way to do this
 **A:** As of now, I don't. If you wish to support me or know how I get support, see the first question.
 
 **Q: Is the content in this course legal?**  
-**A:** Yes, the content in the course is legal. However it is possible to take the skills provided in this course and use them for bad purposes. I am not responsible for what you do with what you learn in this course.  
+**A:** Yes, the content in the course is legal. However, it is possible to take the skills provided in this course and use them for bad purposes. I am not responsible for what you do with what you learn in this course.  
 "With great power comes great responsibility".
 
 **Q: How much time do you spend making this course?**  
@@ -40,7 +40,7 @@ I do this course in my free time. I plan on keeping it up-to-date for the rest o
 **Q: How do I stay up-to-date?**   
 **A:** Become a [Patreon](https://www.patreon.com/z0f) supporter.
 
-**Q: Did you write some of the software/service we are attacking?**  
+**Q: Did you write some of the software/services we are attacking?**  
 **A:** Yes. You can hire me to write insecure software for you ;)
 
 **Q: EYE FOUN SPEL MISTAK! (I FOUND A SPELLING MISTAKE!)**   

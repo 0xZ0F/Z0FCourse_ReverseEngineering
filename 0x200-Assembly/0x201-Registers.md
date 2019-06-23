@@ -1,10 +1,10 @@
 # Registers
-Depending on whether you are working with 64 bit or 32 bit assembly things may be a little different. As already mentioned this course focuses on 64 bit Windows. There are also two different syntaxes for x64 assembly: Intel and AT&T. AT&T is typically used on *NIX operating systems however the two are functionally the same, so you can translate between the two. We will focus on Intel because I think it's the easiest to read and it's the default for Windows. 
+Depending on whether you are working with 64 bit or 32-bit assembly things may be a little different. As already mentioned this course focuses on 64 bit Windows. There are also two different syntaxes for x64 assembly: Intel and AT&T. AT&T is typically used on *NIX operating systems however the two are functionally the same, so you can translate between the two. We will focus on Intel because I think it's the easiest to read and it's the default for Windows. 
 > If you have previous experience with x32 but not x64 you may be confused that the registers start with an "R" instead of an "E". We will talk about this.
 
 
 ### What Is Assembly?
-When you compile a program, the compiler does various things. The end goal of a compiler is to translate high level code into a language the CPU can understand. This language is Assembly. The CPU supports various instructions that all work together doing things such as moving data, performing comparisons, doing things based on comparisons, modifying values, and really anything else that you can think of. While we may not have the high level source code for any program we do have the Assembly code. An executable is simply a list of Assembly instructions that can be executed.
+When you compile a program, the compiler does various things. The end goal of a compiler is to translate high-level code into a language the CPU can understand. This language is Assembly. The CPU supports various instructions that all work together doing things such as moving data, performing comparisons, doing things based on comparisons, modifying values, and really anything else that you can think of. While we may not have the high-level source code for any program we do have the Assembly code. An executable is simply a list of Assembly instructions that can be executed.
 
 ### Assembly VS C:
 This may get really confusing real fast for some people. What you need to remember is that Assembly was written for humans. It's just like higher level languages except less wordy. For example:  
@@ -23,10 +23,10 @@ jne 5       ; Line 5 (ret)
 call func1
 ret
 ```
-That may look a bit confusing at first, but very soon it will make sense! I encourage you to try to figure out parts of it if you can. In Assembly things tend to written in a shorter notation; MOV is short for move. 
+That may look a bit confusing at first, but very soon it will make sense! I encourage you to try to figure out parts of it if you can. In Assembly things are written in a shorter notation; MOV is short for "move". 
 
 ### The Registers
-Let's talk about **General Purpose Registers (GPR)**. You can think of these as variables because that's essentially what they are. Your CPU has it's own data storage that is extremely fast. This is helpful, however space in the CPU is extremely limited. Any data the CPU can't store on it's own is stored in memory. Memory (RAM) is much slower for the CPU to use. Because of the slow speed the CPU tries to put data in registers instead of memory if it can.
+Let's talk about **General Purpose Registers (GPR)**. You can think of these as variables because that's essentially what they are. Your CPU has it's own data storage that is extremely fast. This is helpful, however, space in the CPU is extremely limited. Any data the CPU can't store on its own is stored in memory. Memory (RAM) is much slower for the CPU to use. Because of the slow speed, the CPU tries to put data in registers instead of memory if it can.
 
 #### There are 8 main general purpose registers:
 > Don't worry too much about how the following registers are used except for RSP and RBP. We'll cover RSP and RBP later too, so don't worry.
@@ -45,17 +45,17 @@ All of these registers are used for holding data. Something I want to point out 
 I should also note that while you *can* use these registers for anything, there are some registers that are best left alone when dealing with typical data. For example, ESP and EBP should almost always only be used for what they were designed for. They store the location of the current stack frame (we'll get into the stack soon) which is very important. You can use ESP and EBP to store normal data, but you'll want to save their previous values so you can restore them to their original state when you are finished with them. 
 
 #### The Instruction Pointer
-RIP is probably the most important register. The RIP register is the "Instruction Pointer". It is the address of the *next* line of code to be executed. This register is read only (kind of).
+RIP is probably the most important register. The RIP register is the "Instruction Pointer". It is the address of the *next* line of code to be executed. This register is read-only (kind of).
 
 #### Register Break Downs
-Each register can actually broken down into smaller segments which can be referenced with other register names. RAX is 64 bits, the lower 32 bits can be referenced with EAX, and the lower 16 bits can be referenced with AX. AX is broken down into two 8 bit portions. The high/upper 4 bits of AX can be referenced with AH. The lower 4 bits can be referenced with AL.
+Each register can actually be broken down into smaller segments which can be referenced with other register names. RAX is 64 bits, the lower 32 bits can be referenced with EAX, and the lower 16 bits can be referenced with AX. AX is broken down into two 8 bit portions. The high/upper 4 bits of AX can be referenced with AH. The lower 4 bits can be referenced with AL.
 <p align="center">
   <img src="[ignore]/RegisterBreakdown.png">
 </p>
 
 If I put 0x12345678 into RAX, then RAX refers to 0x12345678, EAX refers to 0x5678, AX refers to 0x78, AH refers to 0x7, AL refers to 0x8. The 0x wouldn't actually be there, this is just used to denote that we're working with hexadecimal numbers.
 
-What is the "E" and the "R" for? The **"E" stands for extended**. The **"R" stands for register**. Remember, the "E registers" are 32 bit registers. When looking at x32 assembly you will see EAX instead of RAX (RAX doesn't exist on x32).
+What is the "E" and the "R" for? The **"E" stands for extended**. The **"R" stands for register**. Remember, the "E registers" are 32-bit registers. When looking at x32 assembly you will see EAX instead of RAX (RAX doesn't exist on x32).
 
 To see how all registers are broken apart go here:  
 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/x64-architecture

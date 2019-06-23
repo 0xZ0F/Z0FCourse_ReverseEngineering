@@ -1,6 +1,6 @@
 # Z0FCourse_ReverseEngineering - WIP - NOT READY
 
-## This course is not yet ready. Feel free to start following it, but know that there will be errors and mistakes. To know when the course is ready follow me on Twitter: https://twitter.com/0xZ0F
+## This course is not yet ready. Feel free to start following it, but know that there will be errors and mistakes. To know when the course is ready, follow me on Twitter: https://twitter.com/0xZ0F
 
 **Reverse engineering course by Z0F.  
 Support me on [Patreon](https://www.patreon.com/z0f)!**
@@ -13,24 +13,27 @@ This course is going to teach anyone how to reverse engineer x64 Windows. We wil
 ## Resources Needed:
 * Software mentioned in the setup.
 * The ability to run one virtual machine is good as well, but not required.
+
 <a name="prerequisites"></a>
-## Prerequisites
-* ### Required:
-    * Good understanding of C/C++.
-    * Experience with object oriented programming in languages such as Java and C#.
-    * Understanding pointers, arrays, structs/classes, inheritance, etc.
-    <br /><br />**Learn C**:
-    <br /> https://www.learn-c.org/
-    <br /><br />**Learn C++:**
-    <br /> https://www.learncpp.com/  
-    <br /> **If you have some experience or finished learncpp.com:**
-    <br /> https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
-* ### Prefered:
-    * **Highly recommended**: x86 or x64 Assembly Programming
-    
+# Prerequisites
+
+* Good understanding of C/C++.
+* Experience with object oriented-programming in languages such as Java and C#.
+* Understanding pointers, arrays, structs/classes, inheritance, etc.
+* **Highly recommended**: x86 or x64 Assembly Programming
+
+**Learn C:**  
+https://www.learn-c.org/
+
+**Learn C++:**  
+https://www.learncpp.com/  
+
+**If you have some experience or finished learncpp.com:**  
+https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+
 <a name="importantnotes"></a>
 ## Important Notes:
-THIS COURSE IS A WORK IN PROGRESS! I'm no where near done, but feel free to watch the course develop over time! If you have any feedback or suggestions let me know on Twitter! If you would like to know a little of what I have planned, see the content inside of the [DOC](DOC) folder.
+THIS COURSE IS A WORK IN PROGRESS! I'm nowhere near done, but feel free to watch the course develop over time! If you have any feedback or suggestions let me know on Twitter! If you would like to know a little of what I have planned, see the content inside of the [DOC](DOC) folder.
 
 I use some technical lingo and abbreviations. If you forget what they mean, or don't know what they mean, go to [Lingo.md](Lingo.md).
 

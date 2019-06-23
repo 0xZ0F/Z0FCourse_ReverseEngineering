@@ -1,6 +1,6 @@
 # Instructions
 Let's talk about some Assembly instructions. Before we get started there are three different terms you should know: **immediate**, **register**, and **memory**. 
-* An **immediate value** is something like the number 12 (the kind of number we humans use). An immediate value is not a memeory address or register, instead it's some sort of constant. 
+* An **immediate value** is something like the number 12 (the kind of number we humans use). An immediate value is not a memory address or register, instead, it's some sort of constant. 
 * A **register** is referring to something like RAX, RBX, R12, AL, etc. 
 * **Memory** or a **memory address** refers to a location in memory (a memory address) such as 0x7FFF842B.
 
@@ -18,18 +18,18 @@ MOV is the instruction, RAX is the destination operand, and 5 is the source oper
 
 # Common Instructions
 ## Data:
-**MOV** is used to move/store the source operand into the destination. The source doesn't have to be an immediate value like it is in the following example. In the following example the immediate value of 5 is being moved into RAX.  
-This is equalivilant to RAX = 5.
+**MOV** is used to move/store the source operand into the destination. The source doesn't have to be an immediate value like it is in the following example. In the following example, the immediate value of 5 is being moved into RAX.  
+This is equivalent to RAX = 5.
 ```asm
 mov RAX, 5
 ```
 
-**LEA** is short for Load Effective Address. This is essential the same as MOV except for addresses. It's also commonly used to compute addresses. In the following example RAX will contain the memory address/location of num1.
+**LEA** is short for Load Effective Address. This is essentially the same as MOV except for addresses. It's also commonly used to compute addresses. In the following example, RAX will contain the memory address/location of num1.
 ```asm
 lea RAX, num1
 ```
 
-**PUSH** is used to push data onto the stack. Pushing refers to putting something on the top of the stack. In the following example RAX is pushed onto the stack. Pushing will act like a copy so RAX will still contain the value it had before it was pushed.
+**PUSH** is used to push data onto the stack. Pushing refers to putting something on the top of the stack. In the following example, RAX is pushed onto the stack. Pushing will act as a copy so RAX will still contain the value it had before it was pushed.
 ```asm
 push RAX
 ```
@@ -45,26 +45,26 @@ pop RAX
 mov RAX, 8
 inc RAX
 ```
-**DEC** decrements a value. In the following example RAX ends with a value of 7.
+**DEC** decrements a value. In the following example, RAX ends with a value of 7.
 ```asm
 mov RAX, 8
 dec RAX
 ```
-**ADD** adds a source to a destination and stores the result in the destination. In the following example 2 is moved into RAX, 3 into RBX, then they are added together. The result (5) is then stored in RAX.  
+**ADD** adds a source to a destination and stores the result in the destination. In the following example, 2 is moved into RAX, 3 into RBX, then they are added together. The result (5) is then stored in RAX.  
 Same as RAX = RAX + RBX or RAX += RBX.
 ```asm
 mov RAX, 2
 mov RBX, 3
 add RAX, RBX
 ```
-**SUB** subtracts a source from a destination and stores the result in the destination. In the following example RAX will end with a value of 2.  
+**SUB** subtracts a source from a destination and stores the result in the destination. In the following example, RAX will end with a value of 2.  
 Same as RAX = RAX - RBX or RAX -= RBX.
 ```asm
 mov RAX, 5
 mov RBX, 3
 sub RAX, RBX
 ```
-**MUL** (unsigned) or **IMUL** (signed) multiplies the destination by the source. The result is stored in the destination. IMUL is used for signed and MUL is used for unsigned. In the following example RAX will end with a value of 15.
+**MUL** (unsigned) or **IMUL** (signed) multiplies the destination by the source. The result is stored in the destination. IMUL is used for signed and MUL is used for unsigned. In the following example, RAX will end with a value of 15.
 ```asm
 mov RAX, 5
 mov RBX, 3
@@ -112,7 +112,7 @@ call func1
 ret
 ```
 
-Hopefully you can now work out the assembly version on it's own. It moves the variable `x` into RAX, then it compares `x` to 4. If they *are not equal* then it will return, if they *are equal* then it calls "func1".
+Hopefully, you can now work out the assembly version on its own. It moves the variable `x` into RAX, then it compares `x` to 4. If they *are not equal* then it will return, if they *are equal* then it calls "func1".
 ## Flipping Out
 You may also notice that the comparison in the example above is flipped.  
 Instead of
@@ -131,7 +131,7 @@ if(x != 4){
     func1();
 }
 ```
-You could easily make the Assembly version match the original C version. The Assembly given in the example is what you will typically see in "the real world ". Although it may not seem like it, the reason for this is efficiency. Basically the compiler can make the program look one of two main ways:
+You could easily make the Assembly version match the original C version. The Assembly given in the example is what you will typically see in "the real world ". Although it may not seem like it, the reason for this is efficiency. Basically, the compiler can make the program look one of two main ways:
 ```assembly
 mov RAX, x
 cmp RAX, 4
@@ -147,7 +147,7 @@ jne 5       ; Line 5 (ret)
 call func1
 ret
 ```
-This code wants to return once `func1` has returned, and/or if RAX is not equal to 4. In other words, it's returning either way. To reduce the amount of instructions the compiler will choose the second option. You may have seen some programmers write if-statements that are more similar to `if(x != 4)` instead of `if(x == 4)`, and this is probably why. Although it really doesn't matter how the programmer writes it because the compiler will most likely choose the best option anyways.
+This code wants to return once `func1` has returned, and/or if RAX is not equal to 4. In other words, it's returning either way. To reduce the number of instructions the compiler will choose the second option. You may have seen some programmers write if-statements that are more similar to `if(x != 4)` instead of `if(x == 4)`, and this is probably why. Although it really doesn't matter how the programmer writes it because the compiler will most likely choose the best option anyways.
 
 ## Pointers
 Assembly has it's ways of working with pointers and memory addresses like C/C++ does. In C/C++ you can use dereferencing to get the value inside of a memory address. For example:
