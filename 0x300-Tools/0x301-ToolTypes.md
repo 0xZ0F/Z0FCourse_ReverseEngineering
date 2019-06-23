@@ -1,7 +1,7 @@
 # Tool Types
 
 ## Debugger
-You've probably heard of a debugger before. It allows a program to step through their code and analyze what it's doing line-by-line. We will be using these ourselves. Unfortunately for us we won't have source code, instead we will be looking at Assembly.
+You've probably heard of a debugger before. It allows a program to step through their code and analyze what it's doing line-by-line. We will be using these ourselves. Unfortunately for us, we won't have the source code, instead we will be looking at Assembly.
 
 A crash course on debugging can be found in [0x302-Debugging](0x302-Debugging.md).
 

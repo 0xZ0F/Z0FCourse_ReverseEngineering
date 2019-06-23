@@ -34,7 +34,7 @@ cmp RAX, 8  ; 2 - 8 = -6.
 ; ZF = 0, OF = 0, SF = 1
 ```
 <br />
-The following is an example where the result is too big to fit into a register. Here I'm using 8 bit registers so we can work with small numbers. The biggest number that can fit in a signed 8 bit register is 128. AL is loaded with 75 then 60 is added to it. The result of adding the two together should result in 135, but the maximum number that it can hold is 128. Because of this the number wraps around and AL is going to be -115. This sets the OF because the result was too big for the register, and the SF flag is set because the result is negative. If this was an unsigned operation CF would be set.
+The following is an example where the result is too big to fit into a register. Here I'm using 8-bit registers so we can work with small numbers. The biggest number that can fit in a signed 8-bit register is 128. AL is loaded with 75 then 60 is added to it. The result of adding the two together should result in 135, but the maximum number that it can hold is 128. Because of this, the number wraps around and AL is going to be -115. This sets the OF because the result was too big for the register, and the SF flag is set because the result is negative. If this was an unsigned operation CF would be set.
 
 ```assembly
 mov AL, 75
@@ -43,4 +43,4 @@ add AL, 60
 ```
 
 ## Final Note
-Hopefully that gives you a good idea of what flags are and how they work. Remember that CMP will set flags depending on the result of the comparison. Conditional jumps will simply look at the flags. This tells us that a conditional jump does not need to be immediately proceeded with a CMP to work. Also, flags are set by things other than CMP instructions.
+Hopefully, that gives you a good idea of what flags are and how they work. Remember that CMP will set flags depending on the result of the comparison. Conditional jumps will simply look at the flags. This tells us that a conditional jump does not need to be immediately proceeded with a CMP to work. Also, flags are set by things other than CMP instructions.

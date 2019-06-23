@@ -1,5 +1,5 @@
 # Number Systems
-> Other subjects and chapters are taught better than this one. Hopefully you can forgive me for such a bad first impression.
+> Other subjects and chapters are taught better than this one. I hope you can forgive me for such a bad first impression.
 
 #### Base 10:
 We mortal humans use the **decimal (base 10)** system.  
@@ -28,14 +28,16 @@ Trying to explain this stuff through words can be a little difficult, and that v
 
 ## Hexadecimal:
 Hexa = 6, Dec = 10. **Hexadecimal is base 16**.  
-Hexadecimal is very similar, but can be a little confusing for some people. You see, we only have ten different individual numbers (0, 1, 2, 3, 4, 5, 6, 7, 8, 9). Hexadecimal needs 16 different numbers. You could use 0, 1... 11, 12, 13... but that would be extremely confusing. For example, what is 1432? Is that 1,4,3,2 or 14,3,2? When we need to represent anything above 9 we can instead use letters such as A, B, C, D... 
+Hexadecimal is very similar but can be a little confusing for some people. You see, we only have ten different individual numbers (0, 1, 2, 3, 4, 5, 6, 7, 8, 9). Hexadecimal needs 16 different numbers. You could use 0, 1... 11, 12, 13... but that would be extremely confusing. For example, what is 1432? Is that 1,4,3,2 or 14,3,2? When we need to represent anything above 9 we can instead use letters such as A, B, C, D... 
 
 Learn hexadecimal here:
 
 https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/hexadecimal-number-system
+
 <a name="prefixes"></a>
+
 ## Prefixes and Suffixes:
-In order to distinguish between different number systems we use prefixes or suffixes. There are many things used to distinguish between he number systems, I will only show the most common.  
+In order to distinguish between different number systems, we use prefixes or suffixes. There are many things used to distinguish between the number systems, I will only show the most common.  
 * Decimal is represented with a **suffix "d"** or with nothing. Examples: 12d or 12. 
-* Hexadecimal is represented with a **prefix "0x"** or **suffix "h"**. Examples: 0x12 or 12h. Another way hexadecimal is represented is with the prefix of "\x". However, this is typically use per-byte. Two hexadecimal digits makes one byte. Examples: \x12 or \x12\x45\x21. If bits and bytes seem a little weird we'll get into them soon so don't worry.
+* Hexadecimal is represented with a **prefix "0x"** or **suffix "h"**. Examples: 0x12 or 12h. Another way hexadecimal is represented is with the prefix of "\x". However, this is typically used per-byte. Two hexadecimal digits make one byte. Examples: \x12 or \x12\x45\x21. If bits and bytes seem a little weird we'll get into them soon so don't worry.
 * Binary is represented with a **suffix "b"** or with a **padding of zeros at the start**. Examples: 100101b or 00100101. The padding at the start is often used because a decimal number can't start with a zero.
