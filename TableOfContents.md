@@ -1,4 +1,3 @@
-<a name="tableofcontents"></a>
 # Table Of Contents:
 * ### [License](LICENSE.md)
 * ### [FAQ](FAQ.md)
@@ -12,7 +11,7 @@
 * ### [Documentation (DOC)](DOC)
     * [Plan](DOC/Plan.md)
     * [TODO](DOC/TODO.md)
-    
+
 * ### [0x000 - Course Introduction and Setup](0x000-IntroductionAndSetup)
     * [HowTo](0x000-IntroductionAndSetup/0x001-HowTo.md)
     * [Setup](0x000-IntroductionAndSetup/0x001-Setup.md)
@@ -21,7 +20,7 @@
     * [NumberSystems](0x100-LowLevelBasics/0x101-NumberSystems.md)
     * [ASCII](0x100-LowLevelBasics/0x102-ASCII.md)
     * [BitsAndBytes](0x100-LowLevelBasics/0x103-BitsAndBytes.md)
-    * [ProgrammingLanuages](0x100-LowLevelBasics/0x104-ProgrammingLanguages.md)
+    * [ProgrammingLanguages](0x100-LowLevelBasics/0x104-ProgrammingLanguages.md)
     * [Operations](0x100-LowLevelBasics/0x105-Operations.md)
     * [Mindset](0x100-LowLevelBasics/0x106-Mindset.md)
     
@@ -30,3 +29,15 @@
     * [MemoryLayout](0x200-Assembly/0x202-MemoryLayout.md)
     * [Instructions](0x200-Assembly/0x203-Instructions.md)
     * [Flags](0x200-Assembly/0x204-Flags.md)
+    * [FinalNotes](0x200-Assembly/0x205-FinalNotes.md)
+  
+* ### [0x300 - Tools](0x200-Tools)
+    * [ToolTypes](0x300-Tools/0x301-ToolTypes.md)
+    * [Debugging](0x300-Tools/0x302-Debugging.md)
+    * [DarkThemes](0x300-Tools/0x303-DarkThemes.md)
+    * [ToolGuides](0x300-Tools/0x304-ToolGuides.md)
+  
+* ### [0x400 - BasicReversing](0x400-BasicReversing)
+    * [BeforeWeBegin](0x400-BasicReversing/0x401-BeforeWeBegin.md)
+    * [HelloWorld](0x400-BasicReversing/0x402-HelloWorld.md)
+    * [Loops](0x400-BasicReversing/0x403-Loops.md)
