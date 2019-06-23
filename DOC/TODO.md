@@ -1,5 +1,8 @@
+Rework 0x400 order. Introduce function calls first.
+
 * Build and find DLLs and software to use.
-* Provide practical examples for things such as stack vs heap.
+
+* Talk about endianness
 
 #### Maybe:
 * Add more assembly instructions. (Will do as I go)

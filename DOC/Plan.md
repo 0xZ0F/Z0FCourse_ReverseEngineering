@@ -7,4 +7,4 @@ What I plan on teaching. These are inevitable. This IS DIFFERENT than TODO which
 **Memory Basics** - How memory is laid out and used.  
 **CPU Basics** - How the CPU executes code, sees code, etc.  
 **Simple Programs** - Demonstrate the previously mentioned in a simple way.  
-**Practical Reverse Engineering** - Actually get into the real stuff.  
+**Practical Reverse Engineering** - Get into the real stuff.  
