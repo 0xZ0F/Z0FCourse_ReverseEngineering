@@ -1,28 +1,4 @@
-# SayHello
-Let's start reversing this DLL. Because we want to implement this DLL into our own program, we don't care too much about what's going on internally. What we care about is what exported functions are there, what do they do, and what do we need to do to call them. To call a function in a DLL we need to be sure that we get the function type and parameters correct.
-
-## Exports
-Let's take a look at the function exports. I will show you two ways of doing this. The first way is with DUMPBIN. This comes with Visual Studio. You can use DUMPBIN with the developer command prompt. Open the dev prompt then navigate to the directory of the DLL. To show the exports for a DLL use the command `dumpbin DLL.dll /EXPORTS`.
-
-This is what you will see:
-
-<p>
-  <img height="400" src="[ignore]/Dumpbin.png">
-</p>
-
-We can also use x64dbg. First load the DLL into x64dbg. Once loaded, go to the "Symbols' tab. Keep pressing the run button until you see DLL.dll show up in the "Modules" column.
-
-Here are the exports in x64dbg:
-
-<p>
-  <img src="[ignore]/x64dbgExports.png">
-</p>
-
-Not all of the functions show above are exports. Be sure to pay attention to whether a function is exported or imported. You can see if a function is exported or imported in the second column.
-
-> Three of the exports use the cdecl calling convention. If you don't remember this calling convention see [0x205-CallingConventions](../0x200-Assembly/0x205-CallingConventions.md#cdecl-(C-Declaration)).
-
-## Reversing and Calling `SayHello()`
+# Reversing and Calling `SayHello()`
 The first thing I like to do is get a general idea. The name of this function makes me think that it's going to "say" hello. This could be simply returning a string, or printing out "Hello". With this in mind, let's start.
 
 This is the disassembly of `SayHello()`:

@@ -1,0 +1,51 @@
+# Exports
+Let's start reversing this DLL. Because we want to implement this DLL into our own program, we don't care too much about what's going on internally. What we care about is what exported functions are there, what do they do, and what do we need to do to call them. To call a function in a DLL we need to be sure that we get the function type and parameters correct.
+
+## Finding Exports
+Let's take a look at the function exports. I will show you two ways of doing this. The first way is with DUMPBIN. This comes with Visual Studio. You can use DUMPBIN with the developer command prompt. Open the dev prompt then navigate to the directory of the DLL. To show the exports for a DLL use the command `dumpbin DLL.dll /EXPORTS`.
+
+This is what you will see:
+
+<p>
+  <img height="400" src="[ignore]/Dumpbin.png">
+</p>
+
+We can also use x64dbg. First load the DLL into x64dbg. Once loaded, go to the "Symbols' tab. Keep pressing the run button until you see DLL.dll show up in the "Modules" column.
+
+Here are the exports in x64dbg:
+
+<p>
+  <img src="[ignore]/x64dbgExports.png">
+</p>
+
+Not all of the functions show above are exports. Be sure to pay attention to whether a function is exported or imported. You can see if a function is exported or imported in the second column.
+
+> Three of the exports use the cdecl calling convention. If you don't remember this calling convention see [0x205-CallingConventions](../0x200-Assembly/0x205-CallingConventions.md#cdecl-(C-Declaration)).
+
+## Function Overriding, Mangling, and Decoration
+What's with the random characters in some of the function names, such as ?PrintArray@@YAXQEAD@Z? This name mangling is done for function overriding. Function overriding allows for multiple functions of the same name that take different parameters. For example, you might want to have a function for addition. You might want to be able to add integers or floats. To make this happen, you can use function overriding. Here is another example:
+
+```c++
+float Add(float x, float y){
+  return x+y;
+}
+int Add(int x, int y){
+  return x+y;
+}
+
+int main(){
+  Add(2,3); //Calls Add(int x, int y);
+  Add(4.5, 1.2); //Calls float Add(float x, float y);
+}
+```
+
+> When a function's name is mangled, it's considered decorated.
+
+In our DLL we can see two functions called "PrintArray" that are both decorated. This means that they are overrides and one takes different parameters than the other. They most likely do the same thing, although this isn't a guarantee. 
+
+Decorated functions are *not* a feature in C. If a function isn't decorated that means it's going to be a C function. A function can manually be defined as a C function by prefixing the function declaration with `extern "C"`. Because of this we can assume that some of the other functions such as `SayHello` are prefixed with `extern "C"`.
+
+A function that doesn't have any overrides does *not* need to be defined as a C function. As you can see, `InitializeClass` is decorated but there are no other functions with the same name, so it's never overwritten. One nice thing about decorated functions is that we will know their return type and parameters. We can see that `InitializeClass` takes a pointer to a class called "Player" and it returns void. 
+
+Also note that because these are C functions, they use a C calling convention. You'll notice that the function declarations are given the keyword "__cdecl". This is done to specify that the function will use the C calling convention.
+
