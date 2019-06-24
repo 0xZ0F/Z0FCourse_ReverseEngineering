@@ -1,5 +1,5 @@
 # Registers
-Depending on whether you are working with 64 bit or 32-bit assembly things may be a little different. As already mentioned this course focuses on 64 bit Windows. There are also two different syntaxes for x64 assembly: Intel and AT&T. AT&T is typically used on *NIX operating systems however the two are functionally the same, so you can translate between the two. We will focus on Intel because I think it's the easiest to read and it's the default for Windows. 
+Depending on whether you are working with 64-bit or 32-bit assembly things may be a little different. As already mentioned this course focuses on 64-bit Windows. There are also two different syntaxes for x64 assembly: Intel and AT&T. AT&T is typically used on *NIX operating systems however the two are functionally the same, so you can translate between the two. We will focus on Intel because I think it's the easiest to read and it's the default for Windows. 
 > If you have previous experience with x32 but not x64 you may be confused that the registers start with an "R" instead of an "E". We will talk about this.
 
 
@@ -64,12 +64,12 @@ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/x64-architect
 * **Floating Point Values** - Floats and Doubles.
 * **Integer Values** - Integers, Booleans, Chars, Pointers, etc.
 
-Different data types can't be put in just any register. Floating point values are represented differently than integers. Because of this, floating point values have special registers. These registers include **YMM0 to YMM15** (64 bit) and **XMM0 to XMM15** (32 bit). The XMM registers are the lower 32 bits of the YMM registers similar to how EAX is the lower 32 bits of RAX. Something unique about these registers si that they can be treated as arrays. In other words, they can hold multiple vales. For example, XMM# can hold 2 64 bit values.
+Different data types can't be put in just any register. Floating point values are represented differently than integers. Because of this, floating point values have special registers. These registers include **YMM0 to YMM15** (64-bit) and **XMM0 to XMM15** (32 bit). The XMM registers are the lower 32 bits of the YMM registers similar to how EAX is the lower 32 bits of RAX. Something unique about these registers si that they can be treated as arrays. In other words, they can hold multiple vales. For example, XMM# can hold 2 64-bit values.
 
 ### Extra Registers
 There are additional registers that should be mentioned. These registers don't have any special uses. There are registers **r0 to r15** which are designed to be used by integer type values (not floats or doubles). The lower 4 bytes (32 bits), 2 bytes (16 bits), and 8 bits (1 byte) can all be accessed. These can be accessed by appending the letter "d", "w", or "b".  
 Examples: 
-* R8 - Full 64 bit (8 bytes) register.
+* R8 - Full 64-bit (8 bytes) register.
 * R8D - Lower double word (4 bytes).
 * R8W - Lower word (2 bytes)
 * R8B - Lower byte.
