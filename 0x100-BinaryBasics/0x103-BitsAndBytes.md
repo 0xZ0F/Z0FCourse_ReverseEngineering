@@ -15,7 +15,7 @@ Before we get into other data types, let's talk about signed vs unsigned. Signed
 
 ### Some Data Type Sizes
 * **Char** - 1 byte.
-* ***Signed* int** - there are 16 bit, 32 bit, and 64 bit integers. 16 bit is -32,768 to 32,767 32 bit is -2,147,483,648 to 2,147,483,647 and 64 bit is -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+* ***Signed* int** - there are 16 bit, 32-bit, and 64-bit integers. 16 bit is -32,768 to 32,767 32 bit is -2,147,483,648 to 2,147,483,647 and 64-bit is -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
 * ***Unsigned* int** - All bits can be used to represent a positive number meaning they go up to twice the number but only down to zero. For example: unsigned 32 bit int goes from 0 to 4,294,967,295. That is twice the signed maximum of 2,147,483,647 however it only goes down to 0.
 * **Bool** - 1 byte. This may surprise you since a bool only needs 1 bit because it's either 1 or 0. The reason why it's a byte is because computers don't tend to work with individual bits. Instead they work with bytes. This is done to keep everything clean and eliminate as much confusion as possible.
 

@@ -37,6 +37,9 @@ THIS COURSE IS A WORK IN PROGRESS! I'm nowhere near done, but feel free to watch
 
 I use some technical lingo and abbreviations. If you forget what they mean, or don't know what they mean, go to [Lingo.md](Lingo.md).
 
+## Why I Made This Course
+Reversing is made so much harder because of the lack of resources to learn it. Most content is outdated, overpriced, hard to follow, or low quality. I found it hard to get into reversing because of the following issues as well as others. 
+
 <a name="contact"></a>
 ## Contact/Stay Updated:
 Follow me on Twitter [@0xZ0F](https://twitter.com/0xZ0F)!  

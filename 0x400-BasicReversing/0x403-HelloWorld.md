@@ -1,8 +1,7 @@
 # Hello World
-I don't think there is a better way to start reversing than a classic "Hello World" program. There are many ways to make program print "Hello World!" in C++, I will be showing the two main ways. One with `printf()` and another with `std::cout`.
+A "Hello World" program isn't going to be much different than the one covered in [0x402-FunctionCall](0x402-FunctionCall.md). There are many ways to make program print "Hello World!" in C++, I will be showing the two main ways. One with `printf()` and another with `std::cout`. It sounds simple, but we will cover some very important concepts.
 
 ## Source Code
-I usually won't be giving you the source code, but since we are just starting out here it is.
 #### Using `printf()`:
 <p>
   <img height="100" src="[ignore]/HelloWorldPrintf.png">
@@ -15,14 +14,14 @@ I usually won't be giving you the source code, but since we are just starting ou
 
 ## Reversing the `printf()` Version
 Let's view the compiled version of the programs in a disassembler. **We'll start with the `printf()` version.**  
-x64dbg does a great job at presenting these programs so let's use that. To disassemble a program in x64dbg you can go to File > Open then select the program. You can also just drag and drop the program onto the GUI of x64dbg.
+I'll be using x64dbg for these programs because it does a good job at representing them. To disassemble a program in x64dbg you can go to File > Open then select the program. You can also just drag and drop the program onto the GUI of x64dbg.
 
-When you first throw the binary into x64dbg you may notice that we aren't in the `main` function. It turns out there are many things added to our program when it's compiled. Depending on how you have x64dbg setup it may start somewhere different. It might start at the "entry point" or near some security cookie thing. 
-* **Entry Point** - The entry point is the true beginning of the program. There are a few things that a binary will do before it starts running the code written by the developer.
+When you first throw the binary into x64dbg you may notice that we aren't in the `main()` function. It turns out there are many things added to our program when it's compiled. Depending on how you have x64dbg setup it may start somewhere different. It might start at the "entry point" or near some security cookie stuff. 
+* **Entry Point** - The entry point is the true beginning of the program. The entry point is ran *before* `main()`. The reason why `main()` isn't called first is because there are other tasks that need to be done before `main()` is called (such as setting up security cookies). 
 * **Security Cookies** - The security cookie is used to make sure that the return address of a function hasn't been corrupted before following it. This is done to help mitigate buffer overflows. For us, we can ignore anything to do with security cookies.
 
 #### Finding `main()`
-We want to find the `main()` function because that's where the code we want to reverse is at. So how do we get there? The easiest way is by going to the symbol. Go the "Symbols" tab and click on the executable. 
+We want to find the `main()` function because that's where the code we want to reverse is at. So how do we get there? The easiest way is by going to the symbol. Symbols are just names that the disassembler was able to find. These names are typically function names. Go the "Symbols" tab and click on the executable. 
 <p align="center">
   <img height="400" src="[ignore]/PrintfSymbols.png">
 </p>
@@ -34,6 +33,7 @@ There doesn't appear to be a `main()` function so we will have to find it some o
 </p>
 
 As you can see there are quite a few strings. Most of these strings aren't important. Let's search for our "Hello World!" string using the search bar at the bottom. Go ahead and double click on the "Hello World!" string. If there are more than one just choose the first one. This will bring you into the function where the string is used.
+
 <p align="center">
   <img src="[ignore]/PrintfMain.png">
 </p>
@@ -46,6 +46,7 @@ Just so we don't have to keep doing this let's change its label to `main` by rig
 
 #### Analyzing Main
 Let's figure out what `main()` is doing by looking at it in Assembly.
+
 <p align="center">
   <img src="[ignore]/PrintfMain.png">
 </p>
@@ -70,6 +71,7 @@ I hope that wasn't too difficult to follow and understand. Finding the `main()` 
 This is where things get interesting. `std::cout` is part of C++, whereas `printf()` is part of C. This means that the compiler has full control over `std::cout` but not as much control over `printf()`. Think about how you would make a program that just prints text to the screen *once* as efficient as possible. Think about this, what could you do instead of calling a function just once? The answer is to not call any function, just put the text to be printed inside the print function or put the print function with the text to be printed. Sounds really fun for us reverse engineers doesn't it?!
 
 Here is an example:
+
 ```c
 int Add(int num1, int num2){
     return num1+num2;
@@ -78,8 +80,10 @@ int main(){
     int total = Add(2, 3);
 }
 ```
+
 How could we make this more efficient? There are two ways.  
 The example below is more efficient because there are no parameters to be passed.
+
 ```c
 int Add(){
     return 2+3;
@@ -88,7 +92,9 @@ int main(){
     int total = Add();
 }
 ```
+
 The example below is more efficient because there is no function call at all. Instead, the code for the `Add()` function has essentially been copied and pasted into `main()`. It may not seem like it because I have such a small example but that's exactly what has happened in the example. This is called (depending on who you ask) **function inlining, inline expansion, or just in inlining.** I'll just call it inlining.
+
 ```c
 int main(){
     int total = 2 + 3;
@@ -97,6 +103,7 @@ int main(){
 
 ### Reversing Time
 Open HelloWorld_Cout.exe in x64dbg and let's get started. First, we want to find the main function. Let's use the same technique we used previously which was searching for the string.
+
 <p align="center">
   <img src="[ignore]/CoutCout.png">
 </p>
@@ -109,9 +116,11 @@ Another method to figure out what's going on is to write your own program that u
 
 ### Getting To Main
 So was the string put into `std::cout` or was `std::cout` put into `main()`? Figuring this out is pretty easy. First, go back to the instruction that referenced the string. We want to find out what called this function. Go to the first instruction in this function, this is also the functions address/location. Right-click it and select Find references to > Selected Address(es). We can see that this function is called once, go to where it is called form. This is where it was called from:
+
 <p align="center">
   <img src="[ignore]/CoutMain.png">
 </p>
+
 This appears to be `main()` because of how small it is, but there are no guarantees. This is the function that causes our string to be printed so it's very likely that this is `main()` or something related to it.
 
 So we now know that in this case, the compiler decided to put our string into `std::cout`.
@@ -126,9 +135,11 @@ What's with the second call? I encourage you to find out what this call is on yo
 
 ## `std::cout` Used Twice
 As I said, inlining is almost never used when a function is called more than once. So what does it look like if `std::cout` is used twice? Well, it look much more like the `printf()` version.
+
 <p align="center">
   <img src="[ignore]/DoubleCout.png">
 </p>
+
 As you can see there is one call for `std::cout` and one call for `std::endl` for each one of the two strings being printed, totaling in four function calls.
 
 ## More About Finding `main()`

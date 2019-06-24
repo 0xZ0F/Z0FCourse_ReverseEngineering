@@ -1,8 +1,8 @@
 # Setup
-This course will focus on 64 bit Windows, but we will talk about 32 bit and Linux as well. Note: x32 and x86 are the same.
+This course will focus on 64-bit Windows, but we will talk about 32 bit and Linux as well. Note: x32 and x86 are the same.
 
 ## Operating System
-You will need a 64 bit Windows OS. You can use a virtual machine (VM) if you want, but there is no need to. It's typically best to use a VM for security reasons, but we won't need to worry about that in this course. If you plan on making reverse engineering part of your life then you will probably want to set up a reversing VM. Having a VM will allow you to better isolate the software you are reversing. This can be extremely helpful if you are analyzing the network traffic. Also, if you mess anything up you can revert the VM. Again, you don't need one for this course but in the future, I would recommend you get one.
+You will need a 64-bit Windows OS. You can use a virtual machine (VM) if you want, but there is no need to. It's typically best to use a VM for security reasons, but we won't need to worry about that in this course. If you plan on making reverse engineering part of your life then you will probably want to set up a reversing VM. Having a VM will allow you to better isolate the software you are reversing. This can be extremely helpful if you are analyzing the network traffic. Also, if you mess anything up you can revert the VM. Again, you don't need one for this course but in the future, I would recommend you get one.
 
 ## Reversing Tools:
 Most of the software can be replaced with anything you like. The software I will be using is listed (all of it's free):  
