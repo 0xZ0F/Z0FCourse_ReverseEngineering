@@ -20,6 +20,10 @@ Fastcall is *the* calling convention for x64 Windows. Windows uses a four-regist
 * A function's return value is passed via RAX if it's an integer, bool, char, etc., or XMM0 if it's a float or double.
 * Member functions (functions that are part of a class/struct) have an implicit first parameter for the "this" pointer. Because it's a pointer it will be passed via RCX.[[1]](https://www.gamasutra.com/view/news/171088/x64_ABI_Intro_to_the_Windows_x64_calling_convention.php)
 * The *caller* is responsible for allocating space for parameters for the *callee*. The caller must always allocate space for 4 parameters even if no parameters are passed.
+* The registers RAX, RCX, RDX, R8, R9, R10, R11 are considered volatile and must be considered destroyed on function calls (unless otherwise safety-provable by analysis such as whole program optimization).
+The registers RBX, RBP, RDI, RSI, RSP, R12, R13, R14, and R15 are considered nonvolatile and must be saved and restored by a function that uses them.[[2]](https://docs.microsoft.com/en-us/cpp/build/x64-calling-convention?view=vs-2019)
+
+
 
 That's the x64 Windows fastcall calling convention for you. Learning your first calling convention is like learning your first programming language. It seems complex and daunting at first, but it's really quite simple. It's typically harder to learn you first calling convention than it is your second or third.
 

@@ -51,7 +51,7 @@ My first guess, based on the fact that "\n" is used and that we think `std::cout
 
 In this case I'm pretty certain that I've figured it out. You could do further reversing if you want.
 
-# Using `SayHello()` In Our Own Program
+# Implementing `SayHello()` In Our Own Program
 So we've reversed the function, now let's use it. Before we use it we need to know what parameters the function takes, and it's data/return type. Looking at the function it doesn't seem to take any parameters. If it does take parameters it certainly doesn't use them. As for the return type, it doesn't seem to return anything either. So it seems like it takes no parameters and is of type void.  
 
 <p>
