@@ -94,6 +94,8 @@ mov RAX, 10
 ret
 ```
 
+**NOP** is short for No Operation. This instruction effectively does nothing. It's typically used for padding. Padding is done because some parts of code like to be on specific boundaries such as 16 bit boundaries, or 32 bit boundaries.
+
 ## Back To The Example In 0x201
 Remember the example from 0x201? Here it is:
 ```c

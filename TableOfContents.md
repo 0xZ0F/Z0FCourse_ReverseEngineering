@@ -16,7 +16,7 @@
     * [HowTo](0x000-IntroductionAndSetup/0x001-HowTo.md)
     * [Setup](0x000-IntroductionAndSetup/0x001-Setup.md)
     
-* ### [0x100 - Low-Level Basics](0x100-LowLevelBasics)
+* ### [0x100 - Binary Basics](0x100-BinaryBasics)
     * [NumberSystems](0x100-LowLevelBasics/0x101-NumberSystems.md)
     * [ASCII](0x100-LowLevelBasics/0x102-ASCII.md)
     * [BitsAndBytes](0x100-LowLevelBasics/0x103-BitsAndBytes.md)
@@ -29,7 +29,8 @@
     * [MemoryLayout](0x200-Assembly/0x202-MemoryLayout.md)
     * [Instructions](0x200-Assembly/0x203-Instructions.md)
     * [Flags](0x200-Assembly/0x204-Flags.md)
-    * [FinalNotes](0x200-Assembly/0x205-FinalNotes.md)
+    * [CallingConventions](0x200-Assembly/0x205-CallingConventions.md)
+    * [FinalNotes](0x200-Assembly/0x206-FinalNotes.md)
   
 * ### [0x300 - Tools](0x200-Tools)
     * [ToolTypes](0x300-Tools/0x301-ToolTypes.md)
@@ -39,5 +40,12 @@
   
 * ### [0x400 - BasicReversing](0x400-BasicReversing)
     * [BeforeWeBegin](0x400-BasicReversing/0x401-BeforeWeBegin.md)
-    * [HelloWorld](0x400-BasicReversing/0x402-HelloWorld.md)
-    * [Loops](0x400-BasicReversing/0x403-Loops.md)
+    * [FunctionCall](0x400-BasicReversing/0x402-FunctionCall.md)
+    * [HelloWorld](0x400-BasicReversing/0x403-HelloWorld.md)
+    * [Loops](0x400-BasicReversing/0x404-Loops.md)
+
+* ### [0x500 - DLL](0x500-DLL)
+    * [BeforeWeBegin](0x500-BasicReversing/0x501-BeforeWeBegin.md)
+    * [DLLBasics](0x500-BasicReversing/0x502-DLLBasics.md)
+    * [SayHello](0x500-BasicReversing/0x503-SayHello.md)
+    * [PrintArray](0x500-BasicReversing/0x504-PrintArray.md)

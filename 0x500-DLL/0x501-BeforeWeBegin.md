@@ -1,3 +1,5 @@
+# This section is not ready. The DLL used won't be available until this chapter is done.
+
 # Before We Begin
 Why reverse engineer a DLL? Sometimes the documentation for a library isn't well written, or written at all. If we want to use the DLL, we will need to know how it works. Reversing DLLs is sometimes easier than executables because we have the names of some functions. In this chapter we will not only reverse a DLL, but we will write a program that can use it.
 
