@@ -13,12 +13,12 @@ If we skim through this function there are two things that jump out at me. We ca
   <img src="[ignore]/SayHello/CoutString.png">
 </p>
 
-Let's continue skimming though and see if we can find something else helpful. Something that jumps out to me is towards the bottom there are references to `ios_base`.
+Let's continue skimming through and see if we can find something else helpful. Something that jumps out to me is towards the bottom there are references to `ios_base`.
 <p>
   <img src="[ignore]/SayHello/CoutBottom.png">
 </p>
 
-Seeing the string "`Hello!`" and `ios_base` in the same function makes me suspicious. I'm starting to think this is a system function, possibly `std::cout`. The reason is because `ios_base` is the base class of the I/O stream. Let's put the theory to the test, I'll write a quick program that uses `std::cout` and see if the two are similar. The quickest way to do this is to view the graph view of the two programs.
+Seeing the string "`Hello!`" and `ios_base` in the same function makes me suspicious. I'm starting to think this is a system function, possibly `std::cout`. The reason is that `ios_base` is the base class of the I/O stream. Let's put the theory to the test, I'll write a quick program that uses `std::cout` and try to determine if the two are similar. The quickest way to do this is to view the graph view of the two programs.
 
 DLL Graph View:
 <p>
@@ -42,14 +42,14 @@ Test Program:
   <img height="150" src="[ignore]/SayHello/TestingStart.png">
 </p>
 
-The start of the functions look almost exactly the same. At this point we can be pretty confident that the function `SayHello()` is calling is `std::cout`. Let's take a look at the jump instruction at the end of the `SayHello()` function and see what we can find there. Here is the code that is jumped to:
+The start of the functions look almost exactly the same. At this point, we can be pretty confident that the function `SayHello()` is calling is `std::cout`. Let's take a look at the jump instruction at the end of the `SayHello()` function and see what we can find there. Here is the code that is jumped to:
 <p>
   <img height="400" src="[ignore]/SayHello/DLLEndl.png">
 </p>
 
 My first guess, based on the fact that "\n" is used and that we think `std::cout` is called, is that this function is `std::endl`. Also, it does look like a more condensed version of `std::cout`.
 
-In this case I'm pretty certain that I've figured it out. You could do further reversing if you want.
+In this case, I'm pretty certain that I've figured it out. You could do further reversing if you want.
 
 # Implementing `SayHello()` In Our Own Program
 So we've reversed the function, now let's use it. Before we use it we need to know what parameters the function takes, and it's data/return type. Looking at the function it doesn't seem to take any parameters. If it does take parameters it certainly doesn't use them. As for the return type, it doesn't seem to return anything either. So it seems like it takes no parameters and is of type void.  

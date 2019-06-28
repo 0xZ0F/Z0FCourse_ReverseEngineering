@@ -1,5 +1,4 @@
-Talk about static vs dynamic analysis.
-Spell check 0x500.
+
 
 #### Maybe:
 * Add more assembly instructions. (Will do as I go)

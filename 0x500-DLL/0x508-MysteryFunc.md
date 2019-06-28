@@ -1,5 +1,5 @@
 # MysteryFunc
-I decided to introduce you into reversing with some DLL exports because we have the function names. Unfortunately this isn't always the case. This function, even though it's quite small, will be a little preview of what to expect very soon.
+I decided to introduce you to reversing with some DLL exports because we have the function names. Unfortunately, this isn't always the case. This function, even though it's quite small, will be a little preview of what to expect very soon.
 
 Here is the disassembly of `MysteryFunc`:
 
@@ -19,11 +19,11 @@ Let's break it down. It appears that the function takes two parameters that are 
 
 * `MOV QWORD PTR DS:[RDX], RCX` - The address of the RCX data structure is put into the first element of the RDX data structure.
 * `LEA RAX, QWORD PTR DS:[RCX + 0x4]` - The address of the second parameter in the RCX data structure is moved into RAX. It seems like RAX is being used as a middle-man to move addresses into the structures.
-* `MOV QWORD PTR DS:[RDX + 0x8], RCX` - RCX is moved into the second element in the RDX data structure. I know this is the second element not the third because RDX contains an address which was inside of RCX. This is x64, so the address is most likely 64 bits (8 bytes). Also, because ECX wasn't used, the full RCX register was likely being used. So the first element is 8 bytes not 4 like we're used to. 
+* `MOV QWORD PTR DS:[RDX + 0x8], RCX` - RCX is moved into the second element in the RDX data structure. I know this is the second element not the third because RDX contains an address which was inside of RCX. This is x64, so the address is most likely 64 bits (8 bytes). Also, because ECX wasn't used, the full RCX register was likely being used. So the first element is 8 bytes, not 4 like we're used to. 
 * `MOV QWORD PTR DS:[RDX + 0x10], RAX` - Move RAX (the address of the second element in the RCX data structure) into the third element in the RDX data structure.
 * `LEA RAX, QWORD PTR DS:[RCX + 0x8]` - Move the address of the third element in the RCX data structure into RAX.
 * `MOV QWORD PTR DS:[RDX + 0x18], RAX` - Move RAX (the address of the third element in the RCX data structure) into the fourth element of the RDX data structure.
-* `MOV RAX, RCX` - Return the first parameter, which is the base address of a data structure. This is also the data structure that is having it's addresses moved into another data structure.
+* `MOV RAX, RCX` - Return the first parameter, which is the base address of a data structure. This is also the data structure that is having its addresses moved into another data structure.
 
 It appears that we are moving the addresses of one data structure into another data structure.
 
@@ -91,8 +91,8 @@ extern "C" __declspec(dllexport) void* MysteryFunc(Player* player, int* arr[]) {
 }
 ```
 
-> Remember, I wrote this code. In reality you wouldn't have the source code.
+> Remember, I wrote this code. In reality, you wouldn't have the source code.
 
-As you can see, we nailed it. We couldn't have done any better using static analysis. There isn't any way we could have known if the parameters were classes or arrays with just static analysis. On a low-level both structures and arrays are accessed the same way. We knew that the parameters were data structures, but it was impossible for us to know what kind. The only way we could have been more precise is by debugging a program that uses the DLL and analyzing how it uses `MysteryFunc`. 
+As you can see, we nailed it. We couldn't have done any better using static analysis. There isn't any way we could have known if the parameters were classes or arrays with just static analysis. On a low-level, both structures and arrays are accessed the same way. We knew that the parameters were data structures, but it was impossible for us to know what kind. The only way we could have been more precise is by debugging a program that uses the DLL and analyzing how it uses `MysteryFunc`. 
 
 I really enjoyed this section. This sort of problem/puzzle solving is why I enjoy reversing so much. This was a simple example, I assure you that we will look at more complex examples soon.
