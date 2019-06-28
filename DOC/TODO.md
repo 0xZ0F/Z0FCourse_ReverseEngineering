@@ -1,8 +1,5 @@
-Rework 0x400 order. Introduce function calls first.
-
-* Build and find DLLs and software to use.
-
-* Talk about endianness
+Talk about static vs dynamic analysis.
+Spell check 0x500.
 
 #### Maybe:
 * Add more assembly instructions. (Will do as I go)

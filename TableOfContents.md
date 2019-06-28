@@ -47,5 +47,6 @@
 * ### [0x500 - DLL](0x500-DLL)
     * [BeforeWeBegin](0x500-BasicReversing/0x501-BeforeWeBegin.md)
     * [DLLBasics](0x500-BasicReversing/0x502-DLLBasics.md)
-    * [SayHello](0x500-BasicReversing/0x503-SayHello.md)
-    * [PrintArray](0x500-BasicReversing/0x504-PrintArray.md)
+    * [Exports](0x500-BasicReversing/0x503-DLLBasics.md)
+    * [SayHello](0x500-BasicReversing/0x504-SayHello.md)
+    * [PrintArray](0x500-BasicReversing/0x505-PrintArray.md)
