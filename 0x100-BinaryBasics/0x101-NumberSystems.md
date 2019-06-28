@@ -18,8 +18,9 @@ Base 7 includes 0, 1, 2, 3, 4, 5, 6.
 What about base 2? Base 2 includes 0 and 1. It will help to break the base down:  
 2<sup>10</sup> = 1024, 2<sup>9</sup> = 512, 2<sup>8</sup> = 256, 2<sup>7</sup> = 128, etc.
 <p align="center">
-  <img height="50" src="[ignore]/Base2.png">
+  <img src="[ignore]/Base2.png">
 </p>
+
 If you want to learn binary conversion and how to evaluate different bases, go here:
 
 https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction
