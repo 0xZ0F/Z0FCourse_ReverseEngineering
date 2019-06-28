@@ -33,3 +33,7 @@ There are different ways to represent a program or parts of a program. Hex viewe
 There are various other tools that we can use to gather more information about a binary. For example, DUMPBIN can be used to look at imports, exports, headers, symbols, and more.
 
 The best way to figure out all of these tools is to use them.
+
+# Static vs Dynamic Analysis
+* Static Analysis - Analyzing at a binary when it's not running. In other words, viewing the binary as it is on disk. I also consider reversing a DLL in x64dbg using DLLLoader to be static analysis. This is because we can't step through the exported functions (they are never called).
+* Dynamic Analysis - Analyzing the binary as it's running in memory.

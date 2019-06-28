@@ -9,7 +9,7 @@ This function is actually quite simple, all it does is print information about a
 
 I do want to let you know something before you start. There is some extra code after the final `printf()` call. If you do not follow the `JB` after the final `printf()` call, execution goes into some memory freeing code. Feel free to reverse this if you want, but you can ignore it.
 
-Here is the code I'm talking about (in red box):
+Here is the code I'm talking about (in the red box):
 <p>
   <img src="[ignore]/PrintPlayerStats/FreeCode.png">
 </p>

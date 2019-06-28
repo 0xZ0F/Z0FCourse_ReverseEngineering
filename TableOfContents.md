@@ -50,3 +50,8 @@
     * [Exports](0x500-BasicReversing/0x503-DLLBasics.md)
     * [SayHello](0x500-BasicReversing/0x504-SayHello.md)
     * [PrintArray](0x500-BasicReversing/0x505-PrintArray.md)
+    * [InitializePlayer](0x500-BasicReversing/0x506-InitializePlayer.md)
+    * [PrintPlayerStats](0x500-BasicReversing/0x507-PrintPlayerStats.md)
+    * [MysteryFunc](0x500-BasicReversing/0x508-MysteryFunc.md)
+    * [ImplementingPlayer](0x500-BasicReversing/0x509-ImplementingPlayer.md)
+    * [FinalNotes](0x500-BasicReversing/0x510-FinalNotes.md)]
