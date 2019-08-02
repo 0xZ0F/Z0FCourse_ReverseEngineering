@@ -1,4 +1,4 @@
-# Z0FCourse_ReverseEngineering - WIP - NOT READY
+# Z0FCourse_ReverseEngineering - WIP
 
 ## This course is not yet ready. Feel free to start following it, but know that there will be errors and mistakes. To know when the course is ready, follow me on Twitter: https://twitter.com/0xZ0F
 
