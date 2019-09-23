@@ -1,4 +1,4 @@
-# Initialize Player
+# 0x506 - Initialize Player
 Typically a DLL will have a general purpose. It might be a DLL used for setting up a linked list, logging information, graphics, etc. The DLL we are reversing does more than just one general task. This is because I wanted to introduce you to DLL reversing with some easier examples. I'm going to let you know that the `InitializePlayer`, `PrintPlayerStats`, and  `MysteryFunc` functions are all related to each other. Again, this DLL is meant to be a learning tool. We will get into better examples later on.
 
 With that said, let's get started.
@@ -68,3 +68,9 @@ Since the rest of the function doesn't seem to be very interesting, let's follow
 ## Back To `InitializeData`
 
 Now we know what the `InitializeData` function does. It sets the first element to be 0x20 (32). The second element is a float of 100. The third element is a string of "PLACEHOLDER".
+
+[<- Previous Lesson](0x505-PrintArray.md)  
+[Next Lesson ->](0x507-PrintPlayerStats.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

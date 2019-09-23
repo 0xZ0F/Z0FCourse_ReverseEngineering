@@ -1,4 +1,4 @@
-# Bits and Bytes
+# 0x103 - Bits and Bytes
 Computers "understand" binary (Ex. 10110010).
 
 One bit is one digit of binary. So a bit can either be 0 or 1. 
@@ -23,3 +23,10 @@ For more data types go here: https://www.tutorialspoint.com/cprogramming/c_data_
 
 ## Significance
 The least significant byte is the lowest value. The least significant digit in 124 is 4. The most significant is 1 (100).
+
+[<- Previous Lesson](0x102-ASCII.md)  
+[Next Lesson ->](0x104-ProgrammingLanguages.md)  
+
+
+[Chapter Home](0x100-BinaryBasics.md)  
+[Course Home](../README.md)  

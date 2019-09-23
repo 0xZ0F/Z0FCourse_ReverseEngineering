@@ -1,4 +1,4 @@
-# Windows x64 Calling Convention
+# 0x205 - Windows x64 Calling Convention
 When a function is called you could, theoretically, pass parameters via registers, the stack, or even on disk. You just need to be sure that the function you are calling knows how you are calling it. This isn't too big of a problem if you are using your own functions, but things would get messy when you start using libraries. To solve this problem we have **calling conventions** that define how parameters are passed to a function, who allocates space for local variables, and who cleans up the stack.
 
 > **Callee** refers to the function being called, and the **caller** is the function making the call.
@@ -49,3 +49,9 @@ That wasn't too hard was it? Cdecl is pretty easy and this is your second callin
 
 # Further Learning
 Even though it's for 32-bit, one great resource is: https://en.wikibooks.org/wiki/X86_Disassembly/Calling_Conventions
+
+[<- Previous Lesson](0x204-Flags.md)  
+[Next Lesson ->](0x206-FinalNotes.md)  
+
+[Chapter Home](0x200-Assembly.md)  
+[Course Home](../README.md)  

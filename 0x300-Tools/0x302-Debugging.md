@@ -1,4 +1,4 @@
-# Debugging Crash Course
+# 0x302 - Debugging Crash Course
 
 If you've never used a debugger before you should go try it out. It's important that you know how to use them. Here is a crash course in debugging.
 
@@ -13,3 +13,9 @@ If you've never used a debugger before you should go try it out. It's important 
 * **Step Out** - If you are in the middle of a function and you want to get out of it, you can step out. This will execute the rest of the function and return to where it was called.
 
 Those are the basics of debugging. It's quite a simple process but it's extremely important and helpful to developers and us reverse engineers.
+
+[<- Previous Lesson](0x301-ToolTypes.md)  
+[Next Lesson ->](0x303-DarkThemes.md)  
+
+[Chapter Home](0x300-Tools.md)  
+[Course Home](../README.md)  

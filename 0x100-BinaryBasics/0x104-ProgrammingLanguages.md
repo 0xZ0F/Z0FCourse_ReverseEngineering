@@ -1,4 +1,4 @@
-# Programming Languages
+# 0x104 - Programming Languages
 There are many different programming languages including Python, Java, C, C++, C#, JavaScript, PHP, Lua, F#, Ruby, Go, Assembly, Fortran, COBOL, and many more. There are also variations of languages such as NodeJS and Ruby on Rails. Some languages are also higher levels than others. The higher the level the further away it is from the hardware and typically the easier it is for humans to read and write. For example, C# is a very high-level language and Assembly is a low-level language. Between the two resides C/C++.
 
 ### Different Uses:
@@ -18,3 +18,9 @@ I feel like calling languages interpreted undersells them, especially when talki
 Another huge advantage of these kinds of languages is security. Everything runs through some sort of VM which can do all kinds of security checks and management. Garbage collection is a huge advantage that deserves to be reiterated. Garbage collection makes a developers job easier while also dealing with memory management automatically which is good for security.
 
 Back to Python. Python is similar to Java and .NET because Python is actually compiled into bytecode. This bytecode is then interpreted line by line by a VM just like Java and .NET.
+
+[<- Previous Lesson](0x103-BitsAndBytes.md)  
+[Next Lesson ->](0x105-BitwiseOperations.md)  
+
+[Chapter Home](0x100-BinaryBasics.md)  
+[Course Home](../README.md)  

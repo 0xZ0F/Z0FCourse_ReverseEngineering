@@ -1,4 +1,4 @@
-# Memory Layout
+# 0x202 - Memory Layout
 The systems memory is divided into several sections. I prefer to imagine the stack with low addresses at the top and high addresses at the bottom. The reason for this is because it's more like a normal numeric list and it's how you'll most often see it being represented. Also, I'm pretty sure that's how your computer sees it. Be warned though, you will see people represent the memory layout as starting from higher addresses. If you don't know what I just said, don't worry about it.
 
 ## Assembly Segments
@@ -72,3 +72,9 @@ If we were going to refer to the data 12345678 we would say that it's stored at 
 * 78 is at 0xFFF00010
 
 Again, this is quite a simple concept but you need to be sure that you understand it.
+
+[<- Previous Lesson](0x201-Registers.md)  
+[Next Lesson ->](0x203-Instructions.md)  
+
+[Chapter Home](0x200-Assembly.md)  
+[Course Home](../README.md)  

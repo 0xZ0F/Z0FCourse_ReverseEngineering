@@ -1,4 +1,4 @@
-# Registers
+# 0x201 - Registers
 Depending on whether you are working with 64-bit or 32-bit assembly things may be a little different. As already mentioned this course focuses on 64-bit Windows. There are also two different syntaxes for x64 assembly: Intel and AT&T. AT&T is typically used on *NIX operating systems however the two are functionally the same, so you can translate between the two. We will focus on Intel because I think it's the easiest to read and it's the default for Windows. 
 > If you have previous experience with x32 but not x64 you may be confused that the registers start with an "R" instead of an "E". We will talk about this.
 
@@ -75,3 +75,9 @@ Examples:
 * R8D - Lower double word (4 bytes).
 * R8W - Lower word (2 bytes)
 * R8B - Lower byte.
+
+[<- Previous Lesson](0x200-Assembly.md)  
+[Next Lesson ->](0x202-MemoryLayout.md)  
+
+[Chapter Home](0x200-Assembly.md)  
+[Course Home](../README.md)  

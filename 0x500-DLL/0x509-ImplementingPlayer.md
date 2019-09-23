@@ -1,4 +1,4 @@
-# Implementing `Player`
+# 0x509 - Implementing `Player`
 Now that we've reversed the `Player` class, let's write our own program that makes a `Player` class and uses the functions related to the class.
 
 <p align="center">
@@ -48,3 +48,9 @@ int main()
 	}
 }
 ```
+
+[<- Previous Lesson](0x508-MysteryFunc.md)  
+[Next Lesson ->](0x510-FinalNotes.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

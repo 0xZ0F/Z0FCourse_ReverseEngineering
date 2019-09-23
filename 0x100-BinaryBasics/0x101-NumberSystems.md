@@ -1,4 +1,4 @@
-# Number Systems
+# 0x101 - Number Systems
 > Other subjects and chapters are taught better than this one. I hope you can forgive me for such a bad first impression.
 
 #### Base 10:
@@ -42,3 +42,9 @@ In order to distinguish between different number systems, we use prefixes or suf
 * Decimal is represented with a **suffix "d"** or with nothing. Examples: 12d or 12. 
 * Hexadecimal is represented with a **prefix "0x"** or **suffix "h"**. Examples: 0x12 or 12h. Another way hexadecimal is represented is with the prefix of "\x". However, this is typically used per-byte. Two hexadecimal digits make one byte. Examples: \x12 or \x12\x45\x21. If bits and bytes seem a little weird we'll get into them soon so don't worry.
 * Binary is represented with a **suffix "b"** or with a **padding of zeros at the start**. Examples: 100101b or 00100101. The padding at the start is often used because a decimal number can't start with a zero.
+
+[<- Previous Lesson](0x100-BinaryBasics.md)  
+[Next Lesson ->](0x102-ASCII.md)  
+
+[Chapter Home](0x100-BinaryBasics.md)  
+[Course Home](../README.md)  

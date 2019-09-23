@@ -1,4 +1,4 @@
-# Tool Guides
+# 0x304 - Tool Guides
 It's important to know how to use the software you are using. This section will cover some tool basics. It's best to use this section as a reference when the tools first get introduced.
 
 # x64dbg
@@ -63,3 +63,9 @@ Here are my settings:
 
 # Ghidra - TODO
 Ghidra is a good reversing framework made by our friends at the NSA. The main reason why I use Ghidra is for the decompiler which is very good when compared with other compilers.
+
+[<- Previous Lesson](0x303-DarkThemes.md)  
+[Next Lesson ->](../0x400-BasicReversing/0x400-BasicReversing.md)  
+
+[Chapter Home](0x300-Tools.md)  
+[Course Home](../README.md)  
