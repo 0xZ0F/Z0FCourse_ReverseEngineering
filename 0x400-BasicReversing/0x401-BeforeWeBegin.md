@@ -15,5 +15,5 @@ If you haven't already please read [0x100-BinaryBasics/0x106-Mindset.md](../0x10
 [<- Previous Lesson](0x400-BasicReversing.md)  
 [Next Lesson ->](0x402-FunctionCall.md)  
 
-[Chapter Home](0x400-ToolGuides.md)  
+[Chapter Home](0x400-BasicReversing.md)  
 [Course Home](../README.md)  

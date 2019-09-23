@@ -12,5 +12,5 @@ This chapter will introduce you to some vital reversing concepts by taking a loo
 [<- Previous Lesson](../0x300-Tools/0x304-ToolGuides.md)  
 [Next Lesson ->](0x401-BeforeWeBegin.md)  
 
-[Chapter Home](0x400-ToolGuides.md)  
+[Chapter Home](0x400-BasicReversing.md)  
 [Course Home](../README.md)  

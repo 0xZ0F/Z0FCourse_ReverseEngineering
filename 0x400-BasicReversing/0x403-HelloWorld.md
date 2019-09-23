@@ -153,5 +153,5 @@ The `printf()` version should be fairly easy to understand. The `std::cout` is m
 [<- Previous Lesson](0x402-FunctionCall.md)  
 [Next Lesson ->](0x404-Loops.md)  
 
-[Chapter Home](0x400-ToolGuides.md)  
+[Chapter Home](0x400-BasicReversing.md)  
 [Course Home](../README.md)  

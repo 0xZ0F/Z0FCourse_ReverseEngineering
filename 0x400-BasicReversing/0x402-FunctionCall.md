@@ -44,5 +44,5 @@ There you go, that's a function call. If you can understand what was just covere
 [<- Previous Lesson](0x401-BeforeWeBegin.md)  
 [Next Lesson ->](0x403-HelloWorld.md)  
 
-[Chapter Home](0x400-ToolGuides.md)  
+[Chapter Home](0x400-BasicReversing.md)  
 [Course Home](../README.md)  
