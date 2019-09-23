@@ -1,4 +1,4 @@
-# MysteryFunc
+# 0x508 - MysteryFunc
 I decided to introduce you to reversing with some DLL exports because we have the function names. Unfortunately, this isn't always the case. This function, even though it's quite small, will be a little preview of what to expect very soon.
 
 Here is the disassembly of `MysteryFunc`:
@@ -96,3 +96,9 @@ extern "C" __declspec(dllexport) void* MysteryFunc(Player* player, int* arr[]) {
 As you can see, we nailed it. We couldn't have done any better using static analysis. There isn't any way we could have known if the parameters were classes or arrays with just static analysis. On a low-level, both structures and arrays are accessed the same way. We knew that the parameters were data structures, but it was impossible for us to know what kind. The only way we could have been more precise is by debugging a program that uses the DLL and analyzing how it uses `MysteryFunc`. 
 
 I really enjoyed this section. This sort of problem/puzzle solving is why I enjoy reversing so much. This was a simple example, I assure you that we will look at more complex examples soon.
+
+[<- Previous Lesson](0x507-PrintPlayerStats.md)  
+[Next Lesson ->](0x509-ImplementingPlayer.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

@@ -1,10 +1,10 @@
-# This section is not ready and the images are inaccurate. The DLL is being worked on as I develope this chapter. The DLL used won't be available until this chapter is done.
+# 0x509 - Before We Begin
 
 # Before We Begin
 Why reverse engineer a DLL? Sometimes the documentation for a library isn't well written or written at all. If we want to use the DLL, we will need to know how it works. In some aspects, reversing DLLs can be easier than reversing executables because we have the names of the exported functions. In this chapter, we will not only reverse a DLL, but we will write a program that can use it.
 
-# Files Needed
-All files used are in [0x000-IntroductionAndSetup/FilesNeeded](../0x000-IntroductionAndSetup/FilesNeeded)
+# Files Needed - WIP
+You can find the files needed [here](../0x000-IntroductionAndSetup/FilesNeeded/FilesNeeded.md).
 
 # x64dbg DLL Loading
 Make sure you have "DLL Entry" breakpoints enabled.
@@ -17,3 +17,9 @@ DLLs cannot be executed like executables. To load the DLL, x64dbg will make a li
 
 # xAnalyzer Issue / DLL Crashing x64dbg
 I use xAnalyzer and I recommend you do too. When reversing the DLL in this chapter you will want to disable extended and automatic analysis or it will cause a crash. To disable it, start x64dbg and go to Plugins > xAnalyzer. Make sure there is no check mark next to "Extended Analysis" or "Automatic Analysis".
+
+[<- Previous Lesson](0x500-DLL.md)  
+[Next Lesson ->](0x502-DLLBasics.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

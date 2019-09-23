@@ -1,4 +1,4 @@
-# Hello World
+# 0x403 - Hello World
 A "Hello World" program isn't going to be much different than the one covered in [0x402-FunctionCall](0x402-FunctionCall.md). There are many ways to make program print "Hello World!" in C++, I will be showing the two main ways. One with `printf()` and another with `std::cout`. It sounds simple, but we will cover some very important concepts.
 
 ## Source Code
@@ -149,3 +149,9 @@ Here is my quick blog post on finding `main()`: https://www.z0fsec.tk/2019/06/re
 
 ## Final Notes  
 The `printf()` version should be fairly easy to understand. The `std::cout` is much more confusing. Hopefully, you get the general idea of what's going on though. From this point, I would highly recommend that you write your own programs and see what's going on. Visual Studio allows you to view the Assembled version of your program along with the source code which can be great for learning. Don't worry if this bit was confusing, the `std::cout` thing is really weird and counter-intuitive.
+
+[<- Previous Lesson](0x402-FunctionCall.md)  
+[Next Lesson ->](0x404-Loops.md)  
+
+[Chapter Home](0x400-ToolGuides.md)  
+[Course Home](../README.md)  

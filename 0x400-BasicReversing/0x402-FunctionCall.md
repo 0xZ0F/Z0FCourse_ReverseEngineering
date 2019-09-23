@@ -1,4 +1,4 @@
-# Function Call
+# 0x402 - Function Call
 ## Before We Begin
 * The name of the program in the following examples is "Testing.exe". This is why you will see "testing.*" prepended to some things.
 * Parameters do not have to be set in any order. RCX can be set after EDX with no issue.
@@ -40,3 +40,9 @@ At this point all other parameters are going to be passed on the stack. Remember
 At this point the `printf()` function is called. `printf()` will now take these parameters and use them as it needs to.
 
 There you go, that's a function call. If you can understand what was just covered then you shouldn't have much issue understanding any other function call you encounter. Remember, if you aren't reversing 64-bit Windows the calling convention might be different.
+
+[<- Previous Lesson](0x401-BeforeWeBegin.md)  
+[Next Lesson ->](0x403-HelloWorld.md)  
+
+[Chapter Home](0x400-ToolGuides.md)  
+[Course Home](../README.md)  

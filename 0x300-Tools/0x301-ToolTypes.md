@@ -1,4 +1,4 @@
-# Tool Types
+# 0x301 - Tool Types
 
 ## Debugger
 You've probably heard of a debugger before. It allows a program to step through their code and analyze what it's doing line-by-line. We will be using these ourselves. Unfortunately for us, we won't have the source code, instead we will be looking at Assembly.
@@ -37,3 +37,9 @@ The best way to figure out all of these tools is to use them.
 # Static vs Dynamic Analysis
 * Static Analysis - Analyzing at a binary when it's not running. In other words, viewing the binary as it is on disk. I also consider reversing a DLL in x64dbg using DLLLoader to be static analysis. This is because we can't step through the exported functions (they are never called).
 * Dynamic Analysis - Analyzing the binary as it's running in memory.
+
+[<- Previous Lesson](0x300-Tools.md)  
+[Next Lesson ->](0x302-Debugging.md)  
+
+[Chapter Home](0x300-Tools.md)  
+[Course Home](../README.md)  

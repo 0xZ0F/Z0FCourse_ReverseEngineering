@@ -1,4 +1,4 @@
-# Reversing and Calling `SayHello()`
+# 0x504 - Reversing and Calling `SayHello()`
 The first thing I like to do is get a general idea of what the function is doing. The name of this function makes me think that it's going to "say" hello. This could be simply returning a string, or printing out "Hello". With this in mind, let's start.
 
 This is the disassembly of `SayHello()`:
@@ -106,3 +106,9 @@ int main()
 	}
 }
 ```
+
+[<- Previous Lesson](0x503-Exports.md)  
+[Next Lesson ->](0x505-PrintArray.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

@@ -1,4 +1,4 @@
-# Exports
+# 0x503 - Exports
 Let's start reversing this DLL. Because we want to implement this DLL into our own program, we don't care too much about what's going on internally. What we care about is what exported functions are available to us, what do they do, and what do we need to do to call them. To call a function we need to be sure that we get the function type and parameters correct.
 
 ## Finding Exports
@@ -51,3 +51,8 @@ A function that doesn't have any overrides does *not* need to be defined as a C 
 
 You may also notice "__cdecl". This is short for C Declaration which is a calling convention. They are prefixed with this because they are C functions, although they don't have to follow the cdecl calling convention.
 
+[<- Previous Lesson](0x502-DLLBasics.md)  
+[Next Lesson ->](0x504-SayHello.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

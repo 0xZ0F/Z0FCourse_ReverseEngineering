@@ -1,4 +1,4 @@
-# Print Array
+# 0x505 - Print Array
 There are two functions called `PrintArray`. Here are the symbols for both functions:
 1. ?PrintArray@@YAXQEADH@Z
    * void __cdecl PrintArray(char * __ptr64 const,int)
@@ -123,3 +123,9 @@ int main()
 	}
 }
 ```
+
+[<- Previous Lesson](0x504-SayHello.md)  
+[Next Lesson ->](0x506-InitializePlayer.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

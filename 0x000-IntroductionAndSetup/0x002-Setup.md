@@ -1,4 +1,4 @@
-# Setup
+# 0x002 - Setup
 This course will focus on 64-bit Windows, but we will talk about 32 bit and Linux as well. Note: x32 and x86 are the same.
 
 ## Operating System
@@ -25,6 +25,12 @@ As you can see there is no IDA Pro! With the release of Ghidra, there isn't real
 Some other good software you may want to take a look at some time is Hopper, Radare, and Binary Ninja. Of those, only Radare is free. Hopper has a free version but you can only use it for a certain amount of time.
 
 ## Target Software:
-All files we will be reversing are in [FilesNeeded](FilesNeeded). I'm unable to distribute all software due to legal reasons. Any programs that I didn't provide directly are listed in [FilesNeeded/@ExternalResources.txt](FilesNeeded/@ExternalResources.txt).
+All of the files you will need are in [0x000-IntroductionAndSetup/FilesNeeded](FilesNeeded/FilesNeeded.md).
 
 **Warning: The files may change over time. I will try to update the course as needed.**
+
+[<- Previous Lesson](0x001-HowTo.md)  
+[Next Lesson ->](../0x100-BinaryBasics/0x100-BinaryBasics.md)  
+
+[Chapter Home](0x000-IntroductionAndSetup.md)  
+[Course Home](../README.md)  

@@ -1,4 +1,4 @@
-# Loops
+# 0x404 - Loops
 Let's take a look at some loops. Loops are pretty simple, but they are easy to miss if you are just skimming over the disassembly. When reversing a binary you won't see keywords like "while" or "for" which are indicators of a loop. This is why they can be easy to miss.
 
 ## For Loop
@@ -35,3 +35,9 @@ As you can see, the while loop is the same as the for loop.
 
 ## Do-While Loops
 Do-while loops are not used very often by most developers, but compilers generate them constantly. Do-while loops are while loops except for the code inside of the while loop is run at least once. Most developers make loops that do exactly this even though they may not define them as such. Both the while loop and for loop examples given previously could be done with do-while loops. In an attempt to improve performance many compilers will use do-while loops instead of for loops or while loops. This is because they can eliminate one comparison and jump from the loop. If you ever use a decompiler you will mostly see them showing loops as do-while loops, this is why.
+
+[<- Previous Lesson](0x403-HelloWorld.md)  
+[Next Lesson ->](../0x500-DLL/0x500-DLL.md)  
+
+[Chapter Home](0x400-ToolGuides.md)  
+[Course Home](../README.md)  

@@ -1,4 +1,4 @@
-# PrintPlayerStats
+# 0x507 - PrintPlayerStats
 Before we use `InitializePlayer` in our own program, let's see what other information we can find about the class. To find more information, let's look at `PrintPlayerStats`. 
 
 <p>
@@ -15,3 +15,9 @@ Here is the code I'm talking about (in the red box):
 </p>
 
 Anyways, good luck and have fun! We'll be reversing one more thing and then we will implement this `Player` class in our own code.
+
+[<- Previous Lesson](0x506-InitializePlayer.md)  
+[Next Lesson ->](0x508-MysteryFunc.md)  
+
+[Chapter Home](0x500-DLL.md)  
+[Course Home](../README.md)  

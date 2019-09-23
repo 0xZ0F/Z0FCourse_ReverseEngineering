@@ -1,4 +1,4 @@
-# Flags
+# 0x204 - Flags
 There are many flags used for various reasons. One flag that we have already talked about is the Zero Flag (ZF).
 
 ## Status Flags
@@ -44,3 +44,9 @@ add AL, 60
 
 ## Final Note
 Hopefully, that gives you a good idea of what flags are and how they work. Remember that CMP will set flags depending on the result of the comparison. Conditional jumps will simply look at the flags. This tells us that a conditional jump does not need to be immediately proceeded with a CMP to work. Also, flags are set by things other than CMP instructions.
+
+[<- Previous Lesson](0x203-Instructions.md)  
+[Next Lesson ->](0x205-CallingConventions.md)  
+
+[Chapter Home](0x200-Assembly.md)  
+[Course Home](../README.md)  
