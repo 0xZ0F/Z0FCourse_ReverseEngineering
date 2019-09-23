@@ -1,4 +1,5 @@
-# New! I now host this course on my website!
+# !!! I now host this course on my new website!
+The version on the website is going to be more up-to-date however I will continue to update the course here on GitHub. For more information, go to my website!
 * Website: [https://0xz0f.github.io/](https://0xz0f.github.io/)
 * Course: [https://0xz0f.github.io/Z0FCourse_ReverseEngineering/README.html](https://0xz0f.github.io/Z0FCourse_ReverseEngineering/README.html)
 
