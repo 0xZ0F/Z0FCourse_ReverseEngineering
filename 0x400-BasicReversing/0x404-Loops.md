@@ -39,5 +39,5 @@ Do-while loops are not used very often by most developers, but compilers generat
 [<- Previous Lesson](0x403-HelloWorld.md)  
 [Next Lesson ->](../0x500-DLL/0x500-DLL.md)  
 
-[Chapter Home](0x400-ToolGuides.md)  
+[Chapter Home](0x400-BasicReversing.md)  
 [Course Home](../README.md)  
