@@ -1,10 +1,6 @@
----
-layout: default
----
-
-# I'm currently migrating the course onto this website. THERE WILL BE ISSUES! I'm working to get everything going, it should be done soon!
-
-# Z0FCourse_ReverseEngineering -- 0x000 to 0x500 Finished/Ready
+# New! I now host this course on my website!
+* Website: [https://0xz0f.github.io/](https://0xz0f.github.io/)
+* Course: [https://0xz0f.github.io/Z0FCourse_ReverseEngineering/README.html](https://0xz0f.github.io/Z0FCourse_ReverseEngineering/README.html)
 
 ### This course is not yet complete. Feel free to start following it, but know that there will be errors and mistakes. To know when the course is ready, follow me on [Twitter](https://twitter.com/0xZ0F).
 
@@ -95,7 +91,7 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
 <br/>
 
 * ### [0x400 - BasicReversing](0x400-BasicReversing)
-    * [0x400 - BasicReversing](0x400-BasicReversing/0x200-BasicReversing.md)
+    * [0x400 - BasicReversing](0x400-BasicReversing/0x400-BasicReversing.md)
     * [0x401 - BeforeWeBegin](0x400-BasicReversing/0x401-BeforeWeBegin.md)
     * [0x402 - FunctionCall](0x400-BasicReversing/0x402-FunctionCall.md)
     * [0x403 - HelloWorld](0x400-BasicReversing/0x403-HelloWorld.md)
