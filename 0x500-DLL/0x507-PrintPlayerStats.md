@@ -20,4 +20,3 @@ Anyways, good luck and have fun! We'll be reversing one more thing and then we w
 [Next Lesson ->](0x508-MysteryFunc.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

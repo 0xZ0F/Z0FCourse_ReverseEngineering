@@ -68,4 +68,3 @@ Ghidra is a good reversing framework made by our friends at the NSA. The main re
 [Next Lesson ->](../0x400-BasicReversing/0x400-BasicReversing.md)  
 
 [Chapter Home](0x300-Tools.md)  
-[Course Home](../README.md)  

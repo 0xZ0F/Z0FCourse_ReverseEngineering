@@ -201,4 +201,3 @@ There are many more Assembly instructions that I haven't covered. As we continue
 [Next Lesson ->](0x204-Flags.md)  
 
 [Chapter Home](0x200-Assembly.md)  
-[Course Home](../README.md)  

@@ -73,4 +73,3 @@ Now we know what the `InitializeData` function does. It sets the first element t
 [Next Lesson ->](0x507-PrintPlayerStats.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

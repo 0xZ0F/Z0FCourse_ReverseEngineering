@@ -13,4 +13,3 @@ ___
 [Next Lesson ->](0x503-Exports.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

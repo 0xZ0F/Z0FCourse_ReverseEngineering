@@ -42,4 +42,3 @@ These operations include **NOT**, **AND**, **OR**, and **XOR**.
 [Next Lesson ->](0x106-Mindset.md)  
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[Course Home](../README.md)  

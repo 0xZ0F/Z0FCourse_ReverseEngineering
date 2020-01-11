@@ -11,4 +11,3 @@ With all of this said, this is where the real fun begins. I wish you the best of
 [Next Lesson ->](../0x300-Tools/0x300-Tools.md)  
 
 [Chapter Home](0x200-Assembly.md)  
-[Course Home](../README.md)  

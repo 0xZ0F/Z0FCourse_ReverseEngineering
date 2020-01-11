@@ -22,4 +22,3 @@ Because computers are stupid, they often do things in a very simple way that may
 [Next Lesson ->](../0x200-BinaryBasics/0x200-Assembly.md)  
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[Course Home](../README.md)  

@@ -1,9 +1,9 @@
 # Table Of Contents:
-* ### [License](LICENSE.md)
+* ### [License](License.md)
 * ### [FAQ](FAQ.md)
 * ### [Lingo](Lingo.md)
 * ### [Readme](README.md)
-* ### [Files Needed](0x000-IntroductionAndSetup/FilesNeeded/FilesNeeded.md)
+* ### [Files Needed](0x000-Introduction/FilesNeeded/FilesNeeded.md)
 * ### [Documentation (DOC)](DOC)
     * [DOC](DOC/DOC.md)
     * [Plan](DOC/Plan.md)
@@ -19,11 +19,11 @@
 <br/>
 <br/>
 
-* ### [0x000 - Course Introduction and Setup](0x000-IntroductionAndSetup)
-    * [Files Needed](0x000-IntroductionAndSetup/FilesNeeded/FilesNeeded.md)
-    * [0x000 - IntroductionAndSetup](0x000-IntroductionAndSetup/0x000-IntroductionAndSetup.md)
-    * [0x001 - HowTo](0x000-IntroductionAndSetup/0x001-HowTo.md)
-    * [0x002 - Setup](0x000-IntroductionAndSetup/0x002-Setup.md)
+* ### [0x000 - Introduction](0x000-Introduction)
+    * [Files Needed](0x000-Introduction/FilesNeeded/FilesNeeded.md)
+    * [0x000 - IntroductionAndSetup](0x000-Introduction/0x000-Introduction.md)
+    * [0x001 - HowTo](0x000-Introduction/0x001-HowTo.md)
+    * [0x002 - Setup](0x000-Introduction/0x002-Setup.md)
 <br/>
 <br/>
 <br/>
