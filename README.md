@@ -1,6 +1,6 @@
 # ATTENTION:
 ## I'm moving the reverse engineering course back to GitHub (here) from my website. This is now the home of this course.
-Maintaining the course on my website was very annoying, so it's coming back here. Yay!
+Maintaining the course on my website was very difficult, so it's coming back here. Yay!
 
 ### This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).  
 
