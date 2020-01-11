@@ -6,12 +6,10 @@ This chapter will cover information you will need as well as how to get setup.
 # [Frequently Asked Questions (FAQ)](../FAQ.md)
 
 ## Resources Needed:
-
-* Files mentioned in [0x002-Setup](0x002-Setup.md). These files can be found [here](FilesNeeded/FilesNeeded.md). More is covered in 0x002-Setup.
+* Files mentioned in [0x002-Setup](0x002-Setup.md). These files can be found under [FilesNeeded](../FilesNeeded). More is covered in 0x002-Setup.
 * The ability to run one virtual machine is recommended, but not required.
 
 # Prerequisites
-
 * Good understanding of C/C++.
 * Experience with object oriented-programming in languages such as Java and C#.
 * Understanding pointers, arrays, structs/classes, inheritance, etc.

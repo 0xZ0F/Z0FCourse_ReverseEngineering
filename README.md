@@ -1,10 +1,9 @@
 # ATTENTION:
-## I'm moving the reverse engineering course back to GitHub (here) from my website. This is now the home of this course.
-Maintaining the course on my website was very difficult, so it's coming back here. Yay!
+### I'm moving the reverse engineering course back to GitHub (here) from my website. This is now the home of this course. Maintaining the course on my website was very difficult, so it's coming back here. Yay!
 
-### This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).  
+### **This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).**
 
-# Get Started: [0x000 - Introduction And Setup](0x000-Introduction/0x000-Introduction.md)
+# Read [BeforeYouBegin](@BeforeYouBegin.md)
 
 **Reverse engineering course by Z0F.  
 Support me on [Patreon](https://www.patreon.com/z0f)!**
@@ -26,26 +25,27 @@ Become a [Patreon](https://www.patreon.com/z0f) supporter!
 Please give me any and all **honest** feedback you have. Don't worry about hurting my feelings, I want to make this course as good as I can. I can't do that alone, that's why your feedback is so important.
 
 The best way to stay up-to-date is to support me on Patreon which will give you access to the Patreon-only feed. The feed includes the latest updates, upcoming updates, and more.
-<br />
 
 # Table Of Contents:
 * ### [License](License.md)
 * ### [FAQ](FAQ.md)
 * ### [Lingo](Lingo.md)
 * ### [Readme](README.md)
-* ### [Files Needed](0x000-Introduction/FilesNeeded/FilesNeeded.md)
+* ### [@BeforeYouBegin](@BeforeYouBegin.md)
+* ### [TableOfContents](TableOfContents.md)
+
 * ### [Documentation (DOC)](DOC)
     * [DOC](DOC/DOC.md)
     * [Plan](DOC/Plan.md)
     * [TODO](DOC/TODO.md)
 
-* ### [Documentation (DOC)](DOC)
-    * [Plan](DOC/Plan.md)
-    * [TODO](DOC/TODO.md)
+* ### [Files Needed](FilesNeeded)
+  * [Files Needed](FilesNeeded/FilesNeeded.md)
+  * [0x500 - DLL](FilesNeeded/0x500-DLL)
+  * [0x600 - Malware](FilesNeeded/0x600-Malware)
 
 * ### [0x000 - Introduction](0x000-Introduction)
-    * [Files Needed](0x000-Introduction/FilesNeeded/FilesNeeded.md)
-    * [0x000 - IntroductionAndSetup](0x000-Introduction/0x000-Introduction.md)
+    * [0x000 - Introduction](0x000-Introduction/0x000-Introduction.md)
     * [0x001 - HowTo](0x000-Introduction/0x001-HowTo.md)
     * [0x002 - Setup](0x000-Introduction/0x002-Setup.md)
 
@@ -96,4 +96,3 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
 
 * ### [0x600 - Malware](0x600-Malware) - WIP
     * [0x600 - Malware](0x600-Malware/0x500-Malware.md)
-    * [0x601 - Before We Begin](0x600-Malware/0x601-BeforeWeBegin.md)

@@ -3,15 +3,21 @@
 * ### [FAQ](FAQ.md)
 * ### [Lingo](Lingo.md)
 * ### [Readme](README.md)
-* ### [Files Needed](0x000-Introduction/FilesNeeded/FilesNeeded.md)
+* ### [@BeforeYouBegin](@BeforeYouBegin.md)
+* ### [TableOfContents](TableOfContents.md)
+
 * ### [Documentation (DOC)](DOC)
     * [DOC](DOC/DOC.md)
     * [Plan](DOC/Plan.md)
     * [TODO](DOC/TODO.md)
 
+* ### [Files Needed](FilesNeeded)
+  * [Files Needed](FilesNeeded/FilesNeeded.md)
+  * [0x500 - DLL](FilesNeeded/0x500-DLL)
+  * [0x600 - Malware](FilesNeeded/0x600-Malware)
+
 * ### [0x000 - Introduction](0x000-Introduction)
-    * [Files Needed](0x000-Introduction/FilesNeeded/FilesNeeded.md)
-    * [0x000 - IntroductionAndSetup](0x000-Introduction/0x000-Introduction.md)
+    * [0x000 - Introduction](0x000-Introduction/0x000-Introduction.md)
     * [0x001 - HowTo](0x000-Introduction/0x001-HowTo.md)
     * [0x002 - Setup](0x000-Introduction/0x002-Setup.md)
 
@@ -62,4 +68,3 @@
 
 * ### [0x600 - Malware](0x600-Malware) - WIP
     * [0x600 - Malware](0x600-Malware/0x500-Malware.md)
-    * [0x601 - Before We Begin](0x600-Malware/0x601-BeforeWeBegin.md)
