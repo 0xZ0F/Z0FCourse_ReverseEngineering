@@ -9,10 +9,6 @@
     * [Plan](DOC/Plan.md)
     * [TODO](DOC/TODO.md)
 
-* ### [Documentation (DOC)](DOC)
-    * [Plan](DOC/Plan.md)
-    * [TODO](DOC/TODO.md)
-
 * ### [0x000 - Introduction](0x000-Introduction)
     * [Files Needed](0x000-Introduction/FilesNeeded/FilesNeeded.md)
     * [0x000 - IntroductionAndSetup](0x000-Introduction/0x000-Introduction.md)
