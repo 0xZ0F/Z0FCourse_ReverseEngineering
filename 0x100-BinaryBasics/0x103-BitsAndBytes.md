@@ -29,4 +29,3 @@ The least significant byte is the lowest value. The least significant digit in 1
 
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[Course Home](../README.md)  

@@ -13,4 +13,3 @@ This chapter will cover some basic tools and what they are used for. Feel free t
 [Next Lesson ->](0x301-ToolTypes.md)  
 
 [Chapter Home](0x300-Tools.md)  
-[Course Home](../README.md)  

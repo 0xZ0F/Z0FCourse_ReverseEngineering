@@ -1,1 +1,1 @@
-Malware.exe is the payload for the malware reversing secition. All the exe does is display ASCII art.
+Malware.exe is the payload for the malware reversing section. All the exe does is display ASCII art.

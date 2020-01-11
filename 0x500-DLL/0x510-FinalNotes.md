@@ -5,4 +5,3 @@ I would consider this to be our first real reversing project. There was a signif
 [Next Lesson ->](../0x600-PrintPlayerStats/0x600-PrintPlayerStats.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

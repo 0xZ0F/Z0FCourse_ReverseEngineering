@@ -7,4 +7,3 @@ For Ghidra you can use invert colors but it doesn't look very good.
 [Next Lesson ->](0x304-ToolGuides.md)  
 
 [Chapter Home](0x300-Tools.md)  
-[Course Home](../README.md)  

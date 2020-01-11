@@ -4,7 +4,7 @@ Maintaining the course on my website was very annoying, so it's coming back here
 
 ### This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).  
 
-# Get Started: [0x000 - Introduction And Setup](0x000-IntroductionAndSetup/0x000-IntroductionAndSetup.md)
+# Get Started: [0x000 - Introduction And Setup](0x000-Introduction/0x000-Introduction.md)
 
 **Reverse engineering course by Z0F.  
 Support me on [Patreon](https://www.patreon.com/z0f)!**
@@ -48,10 +48,10 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
 <br/>
 <br/>
 
-* ### [0x000 - Course Introduction and Setup](0x000-IntroductionAndSetup)
-    * [0x000 - IntroductionAndSetup](0x000-IntroductionAndSetup/0x000-IntroductionAndSetup.md)
-    * [0x001 - HowTo](0x000-IntroductionAndSetup/0x001-HowTo.md)
-    * [0x002 - Setup](0x000-IntroductionAndSetup/0x002-Setup.md)
+* ### [0x000 - Introduction](0x000-Introduction)
+    * [0x000 - IntroductionAndSetup](0x000-Introduction/0x000-Introduction.md)
+    * [0x001 - HowTo](0x000-Introduction/0x001-HowTo.md)
+    * [0x002 - Setup](0x000-Introduction/0x002-Setup.md)
 <br/>
 <br/>
 <br/>

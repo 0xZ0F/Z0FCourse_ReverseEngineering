@@ -42,4 +42,3 @@ The best way to figure out all of these tools is to use them.
 [Next Lesson ->](0x302-Debugging.md)  
 
 [Chapter Home](0x300-Tools.md)  
-[Course Home](../README.md)  

@@ -47,4 +47,3 @@ In order to distinguish between different number systems, we use prefixes or suf
 [Next Lesson ->](0x102-ASCII.md)  
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[Course Home](../README.md)  

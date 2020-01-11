@@ -13,4 +13,3 @@ This chapter will introduce you to some vital reversing concepts by taking a loo
 [Next Lesson ->](0x401-BeforeWeBegin.md)  
 
 [Chapter Home](0x400-BasicReversing.md)  
-[Course Home](../README.md)  

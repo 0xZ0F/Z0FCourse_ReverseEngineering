@@ -18,4 +18,3 @@ Those are the basics of debugging. It's quite a simple process but it's extremel
 [Next Lesson ->](0x303-DarkThemes.md)  
 
 [Chapter Home](0x300-Tools.md)  
-[Course Home](../README.md)  

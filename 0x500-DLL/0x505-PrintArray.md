@@ -128,4 +128,3 @@ int main()
 [Next Lesson ->](0x506-InitializePlayer.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

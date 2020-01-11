@@ -80,4 +80,3 @@ Examples:
 [Next Lesson ->](0x202-MemoryLayout.md)  
 
 [Chapter Home](0x200-Assembly.md)  
-[Course Home](../README.md)  

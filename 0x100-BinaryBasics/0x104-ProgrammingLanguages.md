@@ -23,4 +23,3 @@ Back to Python. Python is similar to Java and .NET because Python is actually co
 [Next Lesson ->](0x105-BitwiseOperations.md)  
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[Course Home](../README.md)  

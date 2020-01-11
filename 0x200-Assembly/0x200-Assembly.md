@@ -15,4 +15,3 @@ This chapter will act as a crash course or refresher for the Assembly language. 
 [Next Lesson ->](0x201-Registers.md)  
 
 [Chapter Home](0x200-Assembly.md)  
-[Course Home](../README.md)  

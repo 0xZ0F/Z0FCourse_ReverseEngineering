@@ -77,4 +77,3 @@ Again, this is quite a simple concept but you need to be sure that you understan
 [Next Lesson ->](0x203-Instructions.md)  
 
 [Chapter Home](0x200-Assembly.md)  
-[Course Home](../README.md)  

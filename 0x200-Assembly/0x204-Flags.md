@@ -49,4 +49,3 @@ Hopefully, that gives you a good idea of what flags are and how they work. Remem
 [Next Lesson ->](0x205-CallingConventions.md)  
 
 [Chapter Home](0x200-Assembly.md)  
-[Course Home](../README.md)  

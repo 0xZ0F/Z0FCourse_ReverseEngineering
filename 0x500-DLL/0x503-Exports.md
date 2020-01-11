@@ -55,4 +55,3 @@ You may also notice "__cdecl". This is short for C Declaration which is a callin
 [Next Lesson ->](0x504-SayHello.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

@@ -54,4 +54,3 @@ Even though it's for 32-bit, one great resource is: https://en.wikibooks.org/wik
 [Next Lesson ->](0x206-FinalNotes.md)  
 
 [Chapter Home](0x200-Assembly.md)  
-[Course Home](../README.md)  

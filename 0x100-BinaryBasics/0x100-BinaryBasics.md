@@ -3,7 +3,7 @@
 This chapter will focus on the basics of binaries, bits, representations, and more.
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[<- Previous Lesson](../0x000-IntroductionAndSetup/0x002-Setup.md)  
+[<- Previous Lesson](../0x000-Introduction/0x002-Setup.md)  
 [Next Lesson ->](0x101-NumberSystems.md)
 
 * ### [0x100 - Binary Basics](0x100-BinaryBasics)
@@ -15,8 +15,7 @@ This chapter will focus on the basics of binaries, bits, representations, and mo
     * [0x105 - Operations](0x105-Operations.md)
     * [0x106 - Mindset](0x106-Mindset.md)
 
-[<- Previous Lesson](../0x000-IntroductionAndSetup/0x002-Setup.md)  
+[<- Previous Lesson](../0x000-Introduction/0x002-Setup.md)  
 [Next Lesson ->](0x101-NumberSystems.md)  
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[Course Home](../README.md)  

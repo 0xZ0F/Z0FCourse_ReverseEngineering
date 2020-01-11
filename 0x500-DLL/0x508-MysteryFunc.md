@@ -101,4 +101,3 @@ I really enjoyed this section. This sort of problem/puzzle solving is why I enjo
 [Next Lesson ->](0x509-ImplementingPlayer.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

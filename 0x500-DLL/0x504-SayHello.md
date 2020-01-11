@@ -111,4 +111,3 @@ int main()
 [Next Lesson ->](0x505-PrintArray.md)  
 
 [Chapter Home](0x500-DLL.md)  
-[Course Home](../README.md)  

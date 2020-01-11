@@ -11,4 +11,3 @@ Here's a full ASCII table: http://www.asciitable.com/
 
 
 [Chapter Home](0x100-BinaryBasics.md)  
-[Course Home](../README.md)  
