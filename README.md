@@ -1,9 +1,8 @@
-# !!! THIS IS AN OLD VERSION! The new and updated version is hosted on my website, although I will try to keep this version updated as well but note that the updates will be slow.
-The version on the website is going to be more up-to-date however I will continue to update the course here on GitHub. For more information, go to my website!
-* Website: [https://0xz0f.github.io/](https://0xz0f.github.io/)
-* Course: [https://0xz0f.github.io/Z0FCourse_ReverseEngineering/README.html](https://0xz0f.github.io/Z0FCourse_ReverseEngineering/README.html)
+# ATTENTION:
+## I'm moving the reverse engineering course back to GitHub (here) from my website. This is now the home of this course.
+Maintaining the course on my website was very annoying, so it's coming back here. Yay!
 
-### This course is not yet complete. Feel free to start following it, but know that there will be errors and mistakes. To know when the course is ready, follow me on [Twitter](https://twitter.com/0xZ0F).
+### This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).  
 
 # Get Started: [0x000 - Introduction And Setup](0x000-IntroductionAndSetup/0x000-IntroductionAndSetup.md)
 
