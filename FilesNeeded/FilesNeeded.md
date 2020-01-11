@@ -1,7 +1,5 @@
 # Files Needed
-
-You can get the files at:  
-[https://drive.google.com/drive/folders/1QVoGbU_xxW1fg79ZHt9_VcppLgsB6I91?usp=sharing](https://drive.google.com/drive/folders/1QVoGbU_xxW1fg79ZHt9_VcppLgsB6I91?usp=sharing)
+These are the files you will need for this course. Each folder contains the files needed for the chapter it's named after. For example, the 0x500-DLL folder contains the files needed for the 0x500-DLL chapter.
 
 * ## 0x500-DLL
   * Debug Files - pdb and obj files. Helps with debugging.
@@ -10,7 +8,7 @@ You can get the files at:
   * RunDLL.exe - Program that uses the DLL.
   * README.txt - Contains the information you just read.
 
-* ## 0x600 - Malware
+* ## 0x600 - Malware - WIP
   * Debug Files - pdb and obj files. Helps with debugging.
   * Source Code - Source code of the malware and its dropper.
   * **THE FOLLOWING ARE TO BE USED AT YOUR OWN RISK. I AM NOT LIABLE FOR ANYTHING DONE:**
