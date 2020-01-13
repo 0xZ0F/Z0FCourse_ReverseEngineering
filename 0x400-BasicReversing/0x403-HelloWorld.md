@@ -145,8 +145,6 @@ As you can see there is one call for `std::cout` and one call for `std::endl` fo
 ## More About Finding `main()`
 There are a few techniques that you can use to find `main()`. In the future, I will talk about these methods. One thing I did want to mention is that `main()` should be called in the entry function. If you're looking for main, it's best to start from the bottom of the entry function and work your way up. That's it for now, I will add more about this topic in the future.  
 
-Here is my quick blog post on finding `main()`: https://www.z0fsec.tk/2019/06/research-finding-main-function.html
-
 ## Final Notes  
 The `printf()` version should be fairly easy to understand. The `std::cout` is much more confusing. Hopefully, you get the general idea of what's going on though. From this point, I would highly recommend that you write your own programs and see what's going on. Visual Studio allows you to view the Assembled version of your program along with the source code which can be great for learning. Don't worry if this bit was confusing, the `std::cout` thing is really weird and counter-intuitive.
 

@@ -30,7 +30,6 @@ THIS COURSE IS A WORK IN PROGRESS! I'm nowhere near done, but feel free to watch
 
 I use some technical lingo and abbreviations. If you forget what they mean, or don't know what they mean, go to [Lingo.md](../Lingo.md).
 
-[Chapter Home](0x000-Introduction.md)  
 [Next Lesson ->](0x001-HowTo.md)
 
 * ### [0x000 - Course Introduction and Setup](0x000-Introduction.md)
