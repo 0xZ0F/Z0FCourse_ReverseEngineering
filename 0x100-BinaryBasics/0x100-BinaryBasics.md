@@ -6,7 +6,7 @@ This chapter will focus on the basics of binaries, bits, representations, and mo
 [<- Previous Lesson](../0x000-Introduction/0x002-Setup.md)  
 [Next Lesson ->](0x101-NumberSystems.md)
 
-* ### [0x100 - Binary Basics](0x100-BinaryBasics)
+* ### [0x100 - Binary Basics](0x100-BinaryBasics.md)
     * [0x100 - BinaryBasics](0x100-BinaryBasics.md)
     * [0x101 - NumberSystems](0x101-NumberSystems.md)
     * [0x102 - ASCII](0x102-ASCII.md)
