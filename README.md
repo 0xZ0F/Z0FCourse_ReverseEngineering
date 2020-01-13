@@ -1,9 +1,9 @@
 # ATTENTION:
-### I'm moving the reverse engineering course back to GitHub (here) from my website. This is now the home of this course. Maintaining the course on my website was very difficult, so it's coming back here. Yay!
+### For now this course is going to be hosted here on Github, however that WILL change.
 
-### **This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).**
+# **This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).**
 
-# Read [BeforeYouBegin](@BeforeYouBegin.md)
+## Read [BeforeYouBegin](@BeforeYouBegin.md)
 
 **Reverse engineering course by Z0F.  
 Support me on [Patreon](https://www.patreon.com/z0f)!**
