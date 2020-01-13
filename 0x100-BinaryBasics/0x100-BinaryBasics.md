@@ -12,7 +12,7 @@ This chapter will focus on the basics of binaries, bits, representations, and mo
     * [0x102 - ASCII](0x102-ASCII.md)
     * [0x103 - BitsAndBytes](0x103-BitsAndBytes.md)
     * [0x104 - ProgrammingLanguages](0x104-ProgrammingLanguages.md)
-    * [0x105 - Operations](0x105-Operations.md)
+    * [0x105 - Bitwise Operations](0x105-BitwiseOperations.md)
     * [0x106 - Mindset](0x106-Mindset.md)
 
 [<- Previous Lesson](../0x000-Introduction/0x002-Setup.md)  
