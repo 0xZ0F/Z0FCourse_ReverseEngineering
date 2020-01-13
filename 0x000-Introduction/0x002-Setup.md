@@ -1,8 +1,8 @@
 # 0x002 - Setup
-This course will focus on 64-bit Windows, but we will talk about 32 bit and Linux as well. Note: x32 and x86 are the same.
+This course will focus on 64-bit Windows, but we will talk a little about 32-bit. Note: In this course x32 and x86 both refer to 32-bit.
 
 ## Operating System
-You will need a 64-bit Windows OS. You can use a virtual machine (VM) if you want, but there is no need to. It's typically best to use a VM for security reasons, but we won't need to worry about that in this course. If you plan on making reverse engineering part of your life then you will probably want to set up a reversing VM. Having a VM will allow you to better isolate the software you are reversing. This can be extremely helpful if you are analyzing the network traffic. Also, if you mess anything up you can revert the VM. Again, you don't need one for this course but in the future, I would recommend you get one.
+You will need a 64-bit Windows OS. You can use a virtual machine (VM) if you want. It's typically best to use a VM for security reasons, but you don't need to worry about that until the malware section. If you plan on making reverse engineering part of your life then you will probably want to set up a reversing VM anyways. Having a VM will allow you to better isolate the software you are reversing. This can be extremely helpful if you are analyzing a program's network traffic, disk usage, registry modifications, etc. Also, if you mess anything up you can revert the VM. Again, you don't need one for this course but in the future, I would recommend you get one.
 
 ## Reversing Tools:
 Most of the software can be replaced with anything you like. The software I will be using is listed (all of it's free):  
@@ -27,7 +27,7 @@ As you can see there is no IDA Pro! With the release of Ghidra, there isn't real
 Some other good software you may want to take a look at some time is Hopper, Radare, and Binary Ninja. Of those, only Radare is free. Hopper has a free version but you can only use it for a certain amount of time.
 
 ## Target Software:
-All of the files you will need are in [FilesNeeded](../FilesNeeded).
+All of the target software that I wrote and is used in this course can be found in [FilesNeeded](../FilesNeeded).
 
 **Warning: The files may change over time. I will try to update the course as needed.**
 
