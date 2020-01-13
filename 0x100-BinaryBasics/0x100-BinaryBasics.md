@@ -1,6 +1,6 @@
 # 0x100 - Binary Basics
 
-This chapter will focus on the basics of binaries, bits, representations, and more.
+This chapter will focus on the basics of binaries, bits, representations, and more. This chapter will give you a basic understanding of the math computers are built on.
 
 * ### [0x100 - Binary Basics](0x100-BinaryBasics.md)
     * [0x100 - BinaryBasics](0x100-BinaryBasics.md)
