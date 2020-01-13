@@ -1,7 +1,5 @@
 # ATTENTION:
-### For now this course is going to be hosted here on Github, however that WILL change.
-
-# **This course is going to be revamped soon. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).**
+## **This course is still in early development and it is going to be reworked soon. I plan on adding a significant amount of content. For now, this course is going to be hosted here on Github, however, that will most likely change in the future. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).**
 
 ## Read [BeforeYouBegin](@BeforeYouBegin.md)
 
