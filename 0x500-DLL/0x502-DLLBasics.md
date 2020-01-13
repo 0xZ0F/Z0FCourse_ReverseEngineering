@@ -9,7 +9,7 @@ ___
 * **Import** - Something brought in from an external source. To use a function from a library you import that function from the library.
 * **Export** - Something exposed to the outside so other sources can import it. You're able to access a function from a DLL because the DLL has exported that function. Because it's exported, your program can import it.
 
-[<- Previous Lesson](0x501-DLLBasics.md)  
+[<- Previous Lesson](0x501-BeforeWeBegin.md)  
 [Next Lesson ->](0x503-Exports.md)  
 
 [Chapter Home](0x500-DLL.md)  

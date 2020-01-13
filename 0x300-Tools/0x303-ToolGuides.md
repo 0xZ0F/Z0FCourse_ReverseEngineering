@@ -1,4 +1,4 @@
-# 0x304 - Tool Guides
+# 0x303 - Tool Guides
 It's important to know how to use the software you are using. This section will cover some tool basics. It's best to use this section as a reference when the tools first get introduced.
 
 # x64dbg

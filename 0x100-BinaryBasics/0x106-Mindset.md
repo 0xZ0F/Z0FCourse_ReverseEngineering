@@ -19,6 +19,6 @@ I also want to point out the delimiters (the forward slashes) used for the numbe
 Because computers are stupid, they often do things in a very simple way that may not be obvious at first. For example, how does a computer decide if two values are equal? When you start looking at Assembly instructions there is a compare instruction. This instruction can decide if a value is greater than another, less than another, or equal to another. How does this instruction determine all of these things? It's actually quite simple, just subtract them. It's so simple it may not be obvious at first.
 
 [<- Previous Lesson](0x105-BitwiseOperations.md)  
-[Next Lesson ->](../0x200-BinaryBasics/0x200-Assembly.md)  
+[Next Lesson ->](../0x200-Assembly/0x200-Assembly.md)  
 
 [Chapter Home](0x100-BinaryBasics.md)  
