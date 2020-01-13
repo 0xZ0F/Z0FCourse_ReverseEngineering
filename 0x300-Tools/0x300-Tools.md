@@ -2,7 +2,7 @@
 
 This chapter will cover some basic tools and what they are used for. Feel free to use any tools you want!
 
-* ### [0x300 - Tools](0x300-Tools)
+* ### [0x300 - Tools](0x300-Tools.md)
     * [0x300 - Tools](0x300-Tools.md)
     * [0x301 - Tool Types](0x301-ToolTypes.md)
     * [0x302 - Debugging](0x302-Debugging)
