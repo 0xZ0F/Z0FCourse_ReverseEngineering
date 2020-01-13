@@ -15,6 +15,6 @@ If you've never used a debugger before you should go try it out. It's important 
 Those are the basics of debugging. It's quite a simple process but it's extremely important and helpful to developers and us reverse engineers.
 
 [<- Previous Lesson](0x301-ToolTypes.md)  
-[Next Lesson ->](0x303-DarkThemes.md)  
+[Next Lesson ->](0x303-ToolGuides.md)  
 
 [Chapter Home](0x300-Tools.md)  
