@@ -3,7 +3,7 @@
 
 ## Read [BeforeYouBegin](@BeforeYouBegin.md)
 
-Support me on [Patreon](https://www.patreon.com/z0f)!**
+**Support me on [Patreon](https://www.patreon.com/z0f)!**
 
 ## What We'll Do/Learn:
 This course is going to teach anyone how to reverse engineer x64 Windows. We will start by covering some basics of binaries, then reverse some small samples, reverse a DLL and implement it into our own program, reverse some malware, then look at some realistic situations.
