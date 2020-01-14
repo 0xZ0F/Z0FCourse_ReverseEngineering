@@ -57,7 +57,7 @@ RAX consists of all 8 bytes which would be bytes 0-7. EAX consists of bytes 4-7,
 
 If 0x12345678 was loaded into a 64 bit register such as RAX, then RAX refers to 0x12345678, EAX refers to 0x5678, AX refers to 0x78, AH refers to 0x7, AL refers to 0x8. The 0x wouldn't actually be there, this is just used to denote that we're working with hexadecimal numbers.
 
-What is the "E" and the "R" for? The **"E" stands for extended**. The **"R" stands for register**. Remember, the "E registers" are 32-bit registers. When looking at x32 assembly you will see EAX instead of RAX (RAX doesn't exist on x32).
+What is the difference between "E" and "R"? The **"E" stands for extended**. The **"R" stands for register**. Remember, the "E registers" are 32-bit registers. When looking at x32 assembly you will see EAX instead of RAX (RAX doesn't exist on x32).
 
 To see how all registers are broken apart go here:  
 https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/x64-architecture
