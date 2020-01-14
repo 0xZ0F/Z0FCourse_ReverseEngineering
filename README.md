@@ -3,7 +3,6 @@
 
 ## Read [BeforeYouBegin](@BeforeYouBegin.md)
 
-**Reverse engineering course by Z0F.  
 Support me on [Patreon](https://www.patreon.com/z0f)!**
 
 ## What We'll Do/Learn:
