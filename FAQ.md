@@ -37,7 +37,7 @@ You can also support me by giving me feedback or advice. The best way to do this
 **A:** Yes. You can hire me to write insecure software for you ;)
 
 **Q: EYE FOUN SPEL MISTAK!**   
-**A:** DM me or Tweet at me on Twitter [@0xZ0F](https://twitter.com/0xZ0F). I make many mistakes, I apologize. Spelling amd grammar mistakes can be distracting, so your help is appreciated. I tend to type pretty quickly so I commonly make mistakes and don't see them.
+**A:** DM me or Tweet at me on Twitter [@0xZ0F](https://twitter.com/0xZ0F). I make many mistakes, I apologize. Spelling and grammar mistakes can be distracting, so your help is appreciated. I tend to type pretty quickly so I commonly make mistakes and don't see them.
 
 **Q: Why are you constantly pushing your Patreon?**  
 **A:** It's literally the only way I make money. With that said...  
