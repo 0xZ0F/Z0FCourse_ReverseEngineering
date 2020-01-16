@@ -3,5 +3,5 @@ DLL.dll needs to be in the same folder as RunDLL.exe.
 
 The SourceCode folder contains the source code for the programs.
 
-The DebugFiles folder contains debuf files that can be used to resolve symbols if you want.
+The DebugFiles folder contains debug files that can be used to resolve symbols if you want.
 Place the debug files in the same folder as RunDLL.exe and DLL.dll.

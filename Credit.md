@@ -10,3 +10,4 @@ These are people that have helped improve this course. Note that I do provide li
 * [@wexecure](https://twitter.com/wexecure)
 * [Navdeep](https://github.com/nvdp01)
 * [u/WarrantyVoider](https://www.reddit.com/user/WarrantyVoider/)
+* [Yury Zholobov](https://github.com/zholobov)
