@@ -68,6 +68,10 @@ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/x64-architect
 
 Different data types can't be put in just any register. Floating point values are represented differently than integers. Because of this, floating point values have special registers. These registers include **YMM0 to YMM15** (64-bit) and **XMM0 to XMM15** (32-bit). The XMM registers are the lower half of the YMM registers, similar to how EAX is the lower 32 bits of RAX. Something unique about these registers is that they can be treated as arrays. In other words, they can hold multiple values. For example, YMM# registers are 256-bit wide each and can hold 4 64-bit values or 8 32-bit values. Similarly, XMM# are 128-bit wide each and can hold 2 64-bit values or 4 32-bit values. Special instructions are needed to utilise these registers as vectors.
 
+A nice table of these registers, and more information about them, can be found here: https://en.wikipedia.org/wiki/Advanced_Vector_Extensions
+
+> Thank you to [Seelengrab](https://github.com/Seelengrab) for [the resource](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) and information about these registers.
+
 ### Extra Registers
 There are additional registers that should be mentioned. These registers don't have any special uses. There are registers **r8 to r15** which are designed to be used by integer type values (not floats or doubles). The lower 4 bytes (32 bits), 2 bytes (16 bits), and 8 bits (1 byte) can all be accessed. These can be accessed by appending the letter "d", "w", or "b".  
 Examples: 
