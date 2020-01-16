@@ -65,7 +65,7 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
     * [0x206 - FinalNotes](0x200-Assembly/0x206-FinalNotes.md)
 
 * ### [0x300 - Tools](0x300-Tools)
-    * [0x300 - Tools](0x300-Tools/0x200-Tools.md)
+    * [0x300 - Tools](0x300-Tools/0x300-Tools.md)
     * [0x301 - ToolTypes](0x300-Tools/0x301-ToolTypes.md)
     * [0x302 - Debugging](0x300-Tools/0x302-Debugging.md)
     * [0x303 - ToolGuides](0x300-Tools/0x303-ToolGuides.md)
