@@ -1,5 +1,9 @@
 # Credit
-These are people that have helped improve this course. Note that I do provide links to the accounts of these people. The safety of these links are NOT guaranteed. CLICK AT YOUR OWN RISK. If you don't wish to have your name listed, want a different account linked/credited, or anything else let me know. Also, there is no particular order.
+These are people that have helped improve this course or support me via [Patreon](https://www.patreon.com/z0f). Note that I do provide links to the accounts of these people. The safety of these links is NOT guaranteed. CLICK AT YOUR OWN RISK. If you don't wish to have your name listed, want a different account linked/credited, or anything else let me know. Also, there is no particular order.
+
+# Patreon Supporters
+> Last names are not shown for privacy reasons. If you're a Patreon supporter and you wish to have your last name shown, just let me know!
+* Yury
 
 # Bug Squashers:
 * [Kcchouette](https://github.com/Kcchouette)

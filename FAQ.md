@@ -2,8 +2,11 @@
 **See [0x000-Introduction](0x000-Introduction) to see how the course is set up.**
 
 **Q: How can I support you?**  
-**A:** Aww, it's so nice of you to ask! You can support me on [Patreon](https://www.patreon.com/z0f) and I will love you forever :heart:.  
+**A:** It's so nice of you to ask! You can support me on [Patreon](https://www.patreon.com/z0f) and I will love you forever :heart:.  
 You can also support me by giving me feedback or advice. The best way to do this is on Twitter [@0xZ0F](https://twitter.com/0xZ0F).
+
+**Q: Whats up with the numbering?**  
+**A:** The course is numbered in hexadecimal. The reason why the courses aren't numbered with actual hexadecimal is down to sorting the courses by name. For example, in hexadecimal 0x10A comes after 0x109. However, when sorting by name in a conventional file browser, 0x10A comes before 0x109 (and even 0x100). Because of this, I would have to give it a name like 0x110.
 
 **Q: When will the course be updated?**   
 **A:** Whenever I can get around to it. This is a free course I'm making in my free time so I only work on it when I feel like it. If I manage to get more financial support for the course I will most certainly dedicate more time to it. 

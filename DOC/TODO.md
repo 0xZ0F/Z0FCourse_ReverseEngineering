@@ -12,7 +12,3 @@ flags
 #### Maybe:
 * Add more assembly instructions. (Will do as I go)
 * x86 vs x64
-
-#### Will be late:
-* Talk about Windows more.
-* Fix grammar and spelling mistakes.
