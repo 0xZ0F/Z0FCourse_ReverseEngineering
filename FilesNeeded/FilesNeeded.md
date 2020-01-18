@@ -11,7 +11,7 @@ https://github.com/0xZ0F/Z0FCourse_ReverseEngineering/releases
   * RunDLL.exe - Program that uses the DLL.
   * README.txt - Contains the information you just read.
 
-* ## 0x600 - Malware - WIP
+* ## 0x900 - Malware - WIP
   * Debug Files - pdb and obj files. Helps with debugging.
   * Source Code - Source code of the malware and its dropper.
   * **THE FOLLOWING ARE TO BE USED AT YOUR OWN RISK. I AM NOT LIABLE FOR ANYTHING DONE:**

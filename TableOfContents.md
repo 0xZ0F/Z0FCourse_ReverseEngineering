@@ -14,7 +14,7 @@
 * ### [Files Needed](FilesNeeded)
   * [Files Needed](FilesNeeded/FilesNeeded.md)
   * [0x500 - DLL](FilesNeeded/0x500-DLL)
-  * [0x600 - Malware](FilesNeeded/0x600-Malware)
+  * [0x900 - Malware](FilesNeeded/0x900-Windows)
 
 * ### [0x000 - Introduction](0x000-Introduction)
     * [0x000 - Introduction](0x000-Introduction/0x000-Introduction.md)
@@ -65,5 +65,8 @@
     * [0x509 - ImplementingPlayer](0x500-DLL/0x509-ImplementingPlayer.md)
     * [0x510 - FinalNotes](0x500-DLL/0x510-FinalNotes.md)
 
-* ### [0x600 - Malware](0x600-Malware) - WIP
-    * [0x600 - Malware](0x600-Malware/0x500-Malware.md)
+* ### [0x600 - Windows](0x600-Windows) - WIP
+    * [0x600 - Windows](0x600-Windows/0x600-Windows.md)
+
+* ### [0x900 - Malware](0x900-Malware) - WIP
+    * [0x900 - Malware](0x900-Malware/0x900-Malware.md)
