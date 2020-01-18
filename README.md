@@ -92,6 +92,7 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
 
 * ### [0x600 - Windows](0x600-Windows) - WIP
     * [0x600 - Windows](0x600-Windows/0x600-Windows.md)
+    * [0x601 - Virtual Memory](0x600-Windows/0x601-VirtualMemory.md)
 
 * ### [0x900 - Malware](0x900-Malware) - WIP
     * [0x900 - Malware](0x900-Malware/0x900-Malware.md)

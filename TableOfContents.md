@@ -67,6 +67,7 @@
 
 * ### [0x600 - Windows](0x600-Windows) - WIP
     * [0x600 - Windows](0x600-Windows/0x600-Windows.md)
+    * [0x601 - Virtual Memory](0x600-Windows/0x601-VirtualMemory.md)
 
 * ### [0x900 - Malware](0x900-Malware) - WIP
     * [0x900 - Malware](0x900-Malware/0x900-Malware.md)

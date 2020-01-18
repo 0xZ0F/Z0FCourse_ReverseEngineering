@@ -4,8 +4,9 @@
 
 This chapter will discuss some of the inner workings of Microsoft Windows. The chapter will focus on what is relevant to the field of reverse engineering. We'll cover things such as processes, memory, threads, the kernel, data structures, and more.
 
-* ### [0xFFF - Windows](0xFFF-Windows.md)
-    * [0xFFF - Assembly](0xFFF-Windows.md)
+* ### [0x600 - Windows](0x600-Windows.md)
+    * [0x600 - Windows](0x600-Windows.md)
+    * [0x601-VirtualMemory](0x601-VirtualMemory.md)
 
 
 # TODO (No order):
