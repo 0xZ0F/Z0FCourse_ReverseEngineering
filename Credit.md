@@ -18,3 +18,4 @@ These are people that have helped improve this course or support me via [Patreon
 * [u/WarrantyVoider](https://www.reddit.com/user/WarrantyVoider/)
 * [Yury Zholobov](https://github.com/zholobov)
 * [Cody Harris](https://github.com/x0ul)
+* [Bahha](https://github.com/bahhax404)
