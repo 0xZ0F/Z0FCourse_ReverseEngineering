@@ -3,6 +3,8 @@ These are people that have helped improve this course or support me via [Patreon
 
 # Patreon Supporters
 > Last names are not shown for privacy reasons. If you're a Patreon supporter and you wish to have your last name shown, just let me know!
+
+* Tim S
 * Yury
 
 # Bug Squashers:
@@ -15,3 +17,4 @@ These are people that have helped improve this course or support me via [Patreon
 * [Navdeep](https://github.com/nvdp01)
 * [u/WarrantyVoider](https://www.reddit.com/user/WarrantyVoider/)
 * [Yury Zholobov](https://github.com/zholobov)
+* [Cody Harris](https://github.com/x0ul)
