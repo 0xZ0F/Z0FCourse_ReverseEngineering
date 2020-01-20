@@ -48,7 +48,7 @@ I should also note that while you *can* use these registers for anything, there 
 RIP is probably the most important register. The RIP register is the "Instruction Pointer". It is the address of the *next* line of code to be executed. This register is read-only (kind of).
 
 #### Register Break Downs
-Each register can actually be broken down into smaller segments which can be referenced with other register names. RAX is 64 bits, the lower 32 bits can be referenced with EAX, and the lower 16 bits can be referenced with AX. AX is broken down into two 8 bit portions. The high/upper 4 bits of AX can be referenced with AH. The lower 4 bits can be referenced with AL.
+Each register can actually be broken down into smaller segments which can be referenced with other register names. RAX is 64 bits, the lower 32 bits can be referenced with EAX, and the lower 16 bits can be referenced with AX. AX is broken down into two 8 bit portions. The high/upper 8 bits of AX can be referenced with AH. The lower 8 bits can be referenced with AL.
 <p align="center">
   <img src="[ignore]/RegisterBreakdown.png">
 </p>
