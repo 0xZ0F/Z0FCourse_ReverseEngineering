@@ -19,3 +19,4 @@ These are people that have helped improve this course or support me via [Patreon
 * [Yury Zholobov](https://github.com/zholobov)
 * [Cody Harris](https://github.com/x0ul)
 * [Bahha](https://github.com/bahhax404)
+* [Jinivus](https://github.com/Jinivus)
