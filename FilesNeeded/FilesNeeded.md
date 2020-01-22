@@ -1,10 +1,10 @@
 # Files Needed
-These are the files you will need for this course. Each folder contains the files needed for the chapter it's named after. For example, the 0x500-DLL folder contains the files needed for the 0x500-DLL chapter.
+These are the files you will need for this course. Each folder contains the files needed for the chapter it's named after. For example, the Chapter 6 - DLL folder contains the files needed for the Chapter 6 - DLL chapter.
 
 ## All files can be downloaded as a .ZIP archive in the releases section.  
 https://github.com/0xZ0F/Z0FCourse_ReverseEngineering/releases
 
-* ## 0x500-DLL
+* ## Chapter 6 - DLL
   * Debug Files - pdb and obj files. Helps with debugging.
   * Source Code - Source code of the DLL and a program that uses the DLL.
   * DLL.dll - DLL that will be reverse engineered.
