@@ -8,7 +8,7 @@
 * **x64** is 64 bit.
 * **x32** and **x86** are 32 bit.
 * **MB** is megabyte, **GB** is gigabyte, etc.
-* For **number system prefixes and suffixes**, see the prefixes section in [NumberSystems.md](Chapter%202%20-%20BinaryBasics/2.1%20NumberSystems.md).
+* For **number system prefixes and suffixes**, see the prefixes section in [2.1 NumberSystems](Chapter%202%20-%20BinaryBasics/2.1%20NumberSystems.md).
 
 ### Programming Language Related  
 * **JRE** - Java Runtime Environment
