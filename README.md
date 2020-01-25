@@ -17,7 +17,7 @@ Reversing is made so much harder because of the lack of resources to learn it. M
 <a name="contact"></a>
 ## Contact/Stay Updated:
 Follow me on Twitter [@0xZ0F](https://twitter.com/0xZ0F)!  
-Discord Server: TODO  
+Discord Server: [https://discord.gg/73tkPGv](https://discord.gg/73tkPGv) 
 Become a [Patreon](https://www.patreon.com/z0f) supporter!  
 
 Please give me any and all **honest** feedback you have. Don't worry about hurting my feelings, I want to make this course as good as I can. I can't do that alone, that's why your feedback is so important.
@@ -58,7 +58,7 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
 
 * ### [Chapter 3 - Assembly](Chapter%203%20-%20Assembly)
     * [3.0 Assembly](Chapter%203%20-%20Assembly/3.0%20Assembly.md)
-    * [3.1- Registers](Chapter%203%20-%20Assembly/3.1%20Registers.md)
+    * [3.1 Registers](Chapter%203%20-%20Assembly/3.1%20Registers.md)
     * [3.2 MemoryLayout](Chapter%203%20-%20Assembly/3.2%20MemoryLayout.md)
     * [3.3 Instructions](Chapter%203%20-%20Assembly/3.3%20Instructions.md)
     * [3.4 Flags](Chapter%203%20-%20Assembly/3.4%20Flags.md)
