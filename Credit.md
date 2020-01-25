@@ -8,6 +8,7 @@ These are people that have helped improve this course or support me via [Patreon
 * Yury
 
 # Bug Squashers:
+* [smokingcuke](https://github.com/smokingcuke)
 * [Kcchouette](https://github.com/Kcchouette)
 * [Seelengrab](https://github.com/Seelengrab)
 * [John Gliksberg](https://github.com/trosh)
