@@ -4,7 +4,7 @@ These are people that have helped improve this course or support me via [Patreon
 # Patreon Supporters
 > Last names are not shown for privacy reasons. If you're a Patreon supporter and you wish to have your last name shown, just let me know!
 
-* Tim S
+* Tim S.
 * Yury
 
 # Bug Squashers:

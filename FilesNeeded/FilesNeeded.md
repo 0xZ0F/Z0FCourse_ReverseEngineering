@@ -11,10 +11,10 @@ https://github.com/0xZ0F/Z0FCourse_ReverseEngineering/releases
   * RunDLL.exe - Program that uses the DLL.
   * README.txt - Contains the information you just read.
 
-* ## 0x900 - Malware - WIP
+* ## Chapter WIP - Malware
   * Debug Files - pdb and obj files. Helps with debugging.
   * Source Code - Source code of the malware and its dropper.
   * **THE FOLLOWING ARE TO BE USED AT YOUR OWN RISK. I AM NOT LIABLE FOR ANYTHING DONE:**
-    * Dropper.Z0F - Program that acts as a dropper for the malware. Rename to Dropper.exe to run it.
-    * Malware.Z0F - Malware that wil be reverse engineered. Rename to Malware.exe to run it.
+    * Dropper.Z0F - Program that acts as a dropper for the malware.
+    * Malware.Z0F - Malware that wil be reverse engineered.
   * README.txt - Contains the information you just read.
