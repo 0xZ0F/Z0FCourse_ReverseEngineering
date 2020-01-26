@@ -17,7 +17,7 @@ Reversing is made so much harder because of the lack of resources to learn it. M
 <a name="contact"></a>
 ## Contact/Stay Updated:
 Follow me on Twitter [@0xZ0F](https://twitter.com/0xZ0F)!  
-Discord Server: [https://discord.gg/73tkPGv](https://discord.gg/73tkPGv) 
+Discord Server: [https://discord.gg/73tkPGv](https://discord.gg/73tkPGv)  
 Become a [Patreon](https://www.patreon.com/z0f) supporter!  
 
 Please give me any and all **honest** feedback you have. Don't worry about hurting my feelings, I want to make this course as good as I can. I can't do that alone, that's why your feedback is so important.
@@ -26,6 +26,8 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
 
 # Table Of Contents:
 * ### [License](License.md)
+* ### [Contributing](Contributing.md)
+* ### [Credit](Credit.md)
 * ### [FAQ](FAQ.md)
 * ### [Lingo](Lingo.md)
 * ### [Readme](README.md)

@@ -1,5 +1,7 @@
 # Table Of Contents:
 * ### [License](License.md)
+* ### [Contributing](Contributing.md)
+* ### [Credit](Credit.md)
 * ### [FAQ](FAQ.md)
 * ### [Lingo](Lingo.md)
 * ### [Readme](README.md)
