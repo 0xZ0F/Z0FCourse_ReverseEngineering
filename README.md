@@ -25,14 +25,14 @@ Please give me any and all **honest** feedback you have. Don't worry about hurti
 The best way to stay up-to-date is to support me on Patreon which will give you access to the Patreon-only feed. The feed includes the latest updates, upcoming updates, and more.
 
 # Table Of Contents:
-* ### [License](License.md)
-* ### [Contributing](Contributing.md)
-* ### [Credit](Credit.md)
-* ### [FAQ](FAQ.md)
-* ### [Lingo](Lingo.md)
-* ### [Readme](README.md)
-* ### [@BeforeYouBegin](@BeforeYouBegin.md)
-* ### [TableOfContents](TableOfContents.md)
+* #### [License](License.md)
+* #### [Contributing](Contributing.md)
+* #### [Credit](Credit.md)
+* #### [FAQ](FAQ.md)
+* #### [Lingo](Lingo.md)
+* #### [Readme](README.md)
+* #### [@BeforeYouBegin](@BeforeYouBegin.md)
+* #### [TableOfContents](TableOfContents.md)
 
 * ### [Documentation](_DOC)
     * [DOC](_DOC/DOC.md)
