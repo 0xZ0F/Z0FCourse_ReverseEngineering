@@ -23,3 +23,4 @@ These are people that have helped improve this course or support me via [Patreon
 * [Jinivus](https://github.com/Jinivus)
 * [hatee-hatee-hatee-ho](https://github.com/hatee-hatee-hatee-ho)
 * [FR/synestematic](https://github.com/synestematic)
+* [UndefinedMuki](https://github.com/UndefinedMuki)
