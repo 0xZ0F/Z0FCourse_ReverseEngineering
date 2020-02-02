@@ -96,3 +96,5 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
 * ### [Chapter 7 - Windows](Chapter%207%20-%20Windows) - WIP
     * [7.0 Windows](Chapter%207%20-%20Windows/7.0%20Windows.md)
     * [7.1 Virtual Memory](Chapter%207%20-%20Windows/7.1%20VirtualMemory.md)
+    * [7.2 Privileges](Chapter%207%20-%20Windows/7.2%20Privileges.md)
+    * [7.3 Architecture](Chapter%207%20-%20Windows/7.3%20Architecture.md) - WIP
