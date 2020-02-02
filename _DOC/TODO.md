@@ -7,7 +7,9 @@ jcc chart + u/s
 flags
 
 ## Windows
-* Explain Windows... it's a Windows RE course this should've been done already.
+* COM
+* ABI
+* WoW
 
 #### Maybe:
 * Add more assembly instructions. (Will do as I go)
