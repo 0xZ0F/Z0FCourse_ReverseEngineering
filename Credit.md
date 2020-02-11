@@ -7,6 +7,7 @@ These are people that have helped improve this course or support me via [Patreon
 * Jorge H.
 * Tim S.
 * Yury
+* Nick
 
 # Bug Squashers:
 * [smokingcuke](https://github.com/smokingcuke)
