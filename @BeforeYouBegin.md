@@ -1,5 +1,5 @@
 # Before You Begin
-## This course is currently a work in progress. I would not recommend following it in it's current stages. When the course is ready this message will be removed and I will put a message out on Twitter. 
+## **This course is still in early development. I plan on adding a significant amount of content. For now, this course is going to be hosted here on Github, however, that will most likely change in the future. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).**
 
 Please read [README.md](README.md) if you haven't already.
 
