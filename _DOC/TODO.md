@@ -1,3 +1,5 @@
+Real Windows DLL examples.
+
 ## Chapter 3 - Assembly
 **Give more and better asm + C examples**
 rep movs(b/w/d)
