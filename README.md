@@ -98,3 +98,7 @@ The best way to stay up-to-date is to support me on Patreon which will give you 
     * [7.1 Virtual Memory](Chapter%207%20-%20Windows/7.1%20VirtualMemory.md)
     * [7.2 Privileges](Chapter%207%20-%20Windows/7.2%20Privileges.md)
     * [7.3 Architecture](Chapter%207%20-%20Windows/7.3%20Architecture.md) - WIP
+
+* ### [Chapter 8 - Generic Table](Chapter%208%20-%20Generic%20Table) - WIP
+    * [8.00 Windows](Chapter%208%20-%20Generic%20Table/8.00%20GenericTable.md)
+    * [8.01 Virtual Memory](Chapter%208%20-%20Generic%20Table/8.01%20InitializeTable.md)
