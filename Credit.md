@@ -8,6 +8,7 @@ These are people that have helped improve this course or support me via [Patreon
 * Tim S.
 * Yury
 * Nick
+* Luis
 
 # Bug Squashers:
 * [smokingcuke](https://github.com/smokingcuke)
