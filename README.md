@@ -1,7 +1,7 @@
 # ATTENTION:
 ## **This course is still in early development. I plan on adding a significant amount of content. For now, this course is going to be hosted here on Github, however, that will most likely change in the future. To stay updated, follow me on [Twitter](https://twitter.com/0xZ0F).**
 
-**Unfortunately, I have become quite busy, so course updates are going to be extremely slow. This course has not been abandoned, I promise.**
+### Message about my future and the future of the reverse engineering course: https://0xz0f.github.io/Blog/Updates/03222020.html
 
 This course is a side project, so updates may be slow. The course is free, and it will remain that way, so don't expect me to spend countless hours working on it. Thank you.
 
