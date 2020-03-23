@@ -9,7 +9,10 @@ https://github.com/0xZ0F/Z0FCourse_ReverseEngineering/releases
   * Source Code - Source code of the DLL and a program that uses the DLL.
   * DLL.dll - DLL that will be reverse engineered.
   * RunDLL.exe - Program that uses the DLL.
+  * DLLLib.exe - Program that uses the DLL via .lib and .h files.
   * README.txt - Contains the information you just read.
+
+**For more information see the README.txt file.**
 
 * ## Chapter WIP - Malware
   * Debug Files - pdb and obj files. Helps with debugging.
