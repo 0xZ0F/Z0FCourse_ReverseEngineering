@@ -30,3 +30,4 @@ These are people that have helped improve this course or support me via [Patreon
 * [FR/synestematic](https://github.com/synestematic)
 * [UndefinedMuki](https://github.com/UndefinedMuki)
 * [Barna Szalai](https://github.com/subdesign)
+* [Gh0stByte/Matthew Matter](https://github.com/Gh0stByte)
