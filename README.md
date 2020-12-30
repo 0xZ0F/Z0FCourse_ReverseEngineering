@@ -1,7 +1,4 @@
-# ATTENTION:
-### Message about my future and the future of the reverse engineering course: https://0xz0f.github.io/Blog/Updates/03222020.html
-
-This course is a side project, so updates may be slow. The course is free, and it will remain that way, so don't expect me to spend countless hours working on it. Thank you.
+I'm currently receiving training, updates have been temporarily put on hold so I can study. Once my training is finished, I will be sure to share what I've learned!
 
 ## Read [BeforeYouBegin](@BeforeYouBegin.md)
 
