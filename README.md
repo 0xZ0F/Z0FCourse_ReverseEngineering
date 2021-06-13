@@ -1,4 +1,5 @@
-I'm currently receiving training, updates have been temporarily put on hold so I can study. Once my training is finished, I will be sure to share what I've learned!
+# Moving Course:
+This course is officially moving to [Guided Hacking](https://guidedhacking.com/)! I will be moving it one chapter at a time. It's a big change, but it's for the better. This will motivate me to keep pushing loads of content out, so it's a win for everyone. Can't wait to see what the future holds.
 
 ## Read [BeforeYouBegin](@BeforeYouBegin.md)
 
