@@ -1,4 +1,5 @@
 # Moving Course:
+>The password for the PDF ZIP files is "reverse".
 This course is officially moving to [Guided Hacking](https://guidedhacking.com/)! I will be moving it one chapter at a time. This move is going to allow me to remake the course, add a bunch more content, and build upon it greatly. As the chapters get moved over they will be replaced here on GitHub with PDFs in a password protected ZIP. The password for the zip files is "reverse". This may worry some of you, but rest assured it's going to be one of the greatest things to happen for this course.
 
 ## Read [BeforeYouBegin](@BeforeYouBegin.md)
