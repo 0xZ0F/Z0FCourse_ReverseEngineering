@@ -1,7 +1,9 @@
 # Moving Course:
->The password for the PDF ZIP files is "reverse".
+Fantastic news, the reverse engineering course is officially moving to [TryHackMe](https://tryhackme.com/)! It's going to be fairly slow, but I can't wait for it! The best part is it's going to be way more interactive. You'll have samples and tools provided, and you'll be able to follow along with the course. Thank you all for your support even in the current time where updates are sparse. I promise you all it's going to be great <3
 
-This course is officially moving to [Guided Hacking](https://guidedhacking.com/)! I will be moving it one chapter at a time. This move is going to allow me to remake the course, add a bunch more content, and build upon it greatly. As the chapters get moved over they will be replaced here on GitHub with PDFs in a password protected ZIP. The password for the zip files is "reverse". This may worry some of you, but rest assured it's going to be one of the greatest things to happen for this course.
+Check my profile for the rooms I create, because there's a review process it's probably going to be a bit. I'll update this message when the first room is out!
+
+https://tryhackme.com/p/Z0F
 
 ## Read [BeforeYouBegin](@BeforeYouBegin.md)
 
