@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>2&period;1 Number Systems</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="21-number-systems">2.1 Number Systems</h1>
+<h4 id="base-10">Base 10:</h4>
+<p>We mortal humans use the <strong>decimal (base 10)</strong> system.<br>
+Base 10 includes 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.<br>
+Here is 243 in base 10:<br>
+243 = (10<sup>2</sup> * 2) + (10<sup>1</sup> * 4) + (10<sup>0</sup> * 3) = 200 + 40 + 3.</p>
+<p>Decimal is sometimes denoted with a suffix of &quot;d&quot; such as 12d.</p>
+<h4 id="base-7">Base 7:</h4>
+<p>We can apply this to any base. For example, 243 in base 7:<br>
+243(in base 7) = (7<sup>2</sup> * 2) + (7<sup>1</sup> * 4) + (7<sup>0</sup> * 3) = 98 + 28 + 3 = 129(in decimal).</p>
+<p>Base 7 includes 0, 1, 2, 3, 4, 5, 6.<br>
+9 isn't in base 7, so how to we represent it in base 7?<br>
+9(in decimal) = (7<sup>1</sup> * <strong><u>1</u></strong></u>) + (7<sup>0</sup> * <strong><u>2</u></strong></u>) = 7 + 2. Our answer is going to be 12(base7) = 9(base10).</p>
+<h2 id="base2binary">Base2/Binary:</h2>
+<p>What about base 2? Base 2 includes 0 and 1. It will help to break the base down:<br>
+2<sup>10</sup> = 1024, 2<sup>9</sup> = 512, 2<sup>8</sup> = 256, 2<sup>7</sup> = 128, etc.</p>
+<p align="center">
+  <img src="file:///d:\Github\Z0FCourse_ReverseEngineering\Chapter 2 - BinaryBasics\[ignore]\Base2.png">
+</p>
+<p>If you want to learn binary conversion and how to evaluate different bases, go here:</p>
+<p><a href="https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction">https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction</a></p>
+<p>Trying to explain this stuff through words can be a little difficult, and that video describes it very well. It also saves me some time.</p>
+<p>Binary is sometimes denoted with the suffix &quot;b&quot; such as 110b.</p>
+<h2 id="hexadecimal">Hexadecimal:</h2>
+<p>Hexa = 6, Dec = 10. <strong>Hexadecimal is base 16</strong>.<br>
+Hexadecimal is very similar but can be a little confusing for some people. You see, we only have ten different individual numbers (0, 1, 2, 3, 4, 5, 6, 7, 8, 9). Hexadecimal needs 16 different numbers. You could use 0, 1... 11, 12, 13... but that would be extremely confusing. For example, what is 1432? Is that 1,4,3,2 or 14,3,2? When we need to represent anything above 9 we can instead use letters such as A, B, C, D, E, and F in the case of hexadecimal.</p>
+<p>A = 10, B = 11, ..., F = 15</p>
+<p>Hexadecimal numbers are usually given a &quot;0x&quot; prefix or the suffix &quot;h&quot; such as 0xFF or FFh.</p>
+<p>0x4A = (16<sup>1</sup> * 4d) + (16<sup>0</sup> * 10d) = 64d + 10d = 74d.</p>
+<p>Learn more hexadecimal here:</p>
+<p><a href="https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/hexadecimal-number-system">https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/hexadecimal-number-system</a></p>
+<h2 id="prefixes-and-suffixes">Prefixes and Suffixes:</h2>
+<p>In order to distinguish between different number systems, we use prefixes or suffixes. There are many things used to distinguish between the number systems, I will only show the most common.</p>
+<ul>
+<li>Decimal is represented with a <strong>suffix &quot;d&quot;</strong> or with nothing. Examples: 12d or 12.</li>
+<li>Hexadecimal is represented with a <strong>prefix &quot;0x&quot;</strong> or <strong>suffix &quot;h&quot;</strong>. Examples: 0x12 or 12h. Another way hexadecimal is represented is with the prefix of &quot;\x&quot;. However, this is typically used per-byte. Two hexadecimal digits make one byte. Examples: \x12 or \x12\x45\x21. If bits and bytes seem a little weird we'll get into them soon so don't worry.</li>
+<li>Binary is represented with a <strong>suffix &quot;b&quot;</strong> or with a <strong>padding of zeros at the start</strong>. Examples: 100101b or 00100101. The padding at the start is often used because a decimal number can't start with a zero.</li>
+</ul>
+<p><a href="2.0%20BinaryBasics.html">&lt;- Previous Lesson</a><br>
+<a href="2.2%20ASCII.html">Next Lesson -&gt;</a></p>
+<p><a href="2.0%20BinaryBasics.html">Chapter Home</a></p>
+
+    </body>
+    </html>
