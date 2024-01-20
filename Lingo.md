@@ -17,5 +17,3 @@
 * **JIT** - Just In Time Compiler
 * **MSIL** - Microsoft Intermediate Language
 * **IL** - Intermediate Language.
-
-
