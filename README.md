@@ -2,6 +2,8 @@
 
 I will be mirroring this repository onto my website, <https://www.debugxp.com/posts/RECourse>. This repository will still be updated, however, I belive the website offers a better experience.
 
+The website is a GitHub pages site hosted with CloudFlare. This is the link to the GitHub pages site repository: <https://github.com/0xZ0F/0xZ0F.github.io>
+
 # Reverse Engineering Course
 
 This course aims to take an individual from beginner to intermediate (advanced is really only achieved through experience) in reverse engineering. While this course focuses on Windows 64-bit, the technical knowledge applies to 32-bit Windows and the theory to any OS.
