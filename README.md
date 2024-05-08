@@ -1,4 +1,4 @@
-## New Website Version
+## Website Version
 
 I will be mirroring this repository onto my website, <https://www.debugxp.com/posts/RECourse>. This repository will still be updated, however, I belive the website offers a better experience.
 
