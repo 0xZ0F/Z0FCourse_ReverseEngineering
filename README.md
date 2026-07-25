@@ -9,6 +9,12 @@ For a more interactive experience with the initial portion of the course (chapte
 1. [Windows x64 Assembly](https://tryhackme.com/room/win64assembly)
 2. [Windows Reverse Engineering Intro](https://tryhackme.com/room/windowsreversingintro)
 
+## Advanced Courses
+
+If you want to explore more advanced Windows internals and exploit development, I offer more courses on my website.
+
+* <https://debugoff.com/>
+
 ## PDF ZIP Password
 
 There are some PDFs created and provided in ZIP files. They may not be up to date, so it's recommended to follow the normal markdown version of the course. The PDFs were provided due to a high number of requests for them.
